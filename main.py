@@ -54,6 +54,11 @@ def display():
         print("Congratulations! You have finished today's job!")
 
 
+def display_one(index):
+    print(str(index)+".", todo_dict["list"][index])
+    print("\n\n".join(["\t"+text for text in todo_dict["progress_dict"][str(index)]]))
+
+
 py.make_it_runnable()
 py.make_it_global_runnable(executable_name="todo")
 
@@ -62,7 +67,6 @@ signal(SIGINT, handler)
 print('Running. Press CTRL-C to exit.')
 while True:
     text = input("\n--------------------\n\n").strip()
-    # print("\n--------------------\n")
     os.system('clear')
 
     if text == "list":
@@ -77,7 +81,7 @@ while True:
         if len(todo_dict["list"]) > 0:
             if todo_dict["index"] == None:
                 todo_dict["index"] = 0
-            print(str(todo_dict["index"])+".", todo_dict["list"][todo_dict["index"]])
+            display_one(todo_dict["index"])
             todo_dict["index"] += 1
             if todo_dict["index"] > len(todo_dict["list"]) - 1:
                 todo_dict["index"] = 0
@@ -90,12 +94,15 @@ while True:
         else:
             index = todo_dict["index"] - 1
         todo_dict["progress_dict"][str(index)].append(progress)
-        print(str(index)+".", todo_dict["list"][index])
-        print(todo_dict["progress_dict"][str(index)])
+        display_one(index)
     elif text[:len("check ")] == "check ":
         index = int(text[len("check "):])
-        print(str(index)+".", todo_dict["list"][index])
-        print(todo_dict["progress_dict"][str(index)])
+        if 0 <= index < len(todo_dict["list"]):
+            if index == len(todo_dict["list"]) - 1:
+                todo_dict["index"] = 0
+            else:
+                todo_dict["index"] = index + 1
+        display_one(index)
     elif text == "help":
         pprint(todo_dict)
     else:

@@ -1,3 +1,4 @@
+#!/usr/bin/env /opt/homebrew/opt/python@3.10/bin/python3.10
 #!/usr/bin/env /usr/bin/python3
 from signal import signal, SIGINT
 from sys import exit
@@ -55,8 +56,13 @@ def display():
 
 
 def display_one(index):
-    print(str(index)+".", todo_dict["list"][index])
-    print("\n\n".join(["\t"+text for text in todo_dict["progress_dict"][str(index)]]))
+    try:
+        print(str(index)+".", todo_dict["list"][index])
+        print("\n\n".join(["\t"+text for text in todo_dict["progress_dict"][str(index)]]))
+    except Exception as e:
+        print(e)
+        print(index)
+        print(todo_dict["list"])
 
 
 py.make_it_runnable()
@@ -75,11 +81,15 @@ while True:
         add(text[len("add "):])
         display()
     elif text[:len("finish ")] == "finish ":
-        remove(int(text[len("finish "):]))
+        try:
+            remove(int(text[len("finish "):]))
+        except Exception as e:
+            print("You should give me a number after 'finish', for example, 'finish 0'")
+            continue
         display()
     elif text == "loop":
         if len(todo_dict["list"]) > 0:
-            if todo_dict["index"] == None:
+            if (todo_dict["index"] == None) or (todo_dict["index"] > len(todo_dict["list"]) - 1):
                 todo_dict["index"] = 0
             display_one(todo_dict["index"])
             todo_dict["index"] += 1
@@ -88,7 +98,9 @@ while True:
         else:
             print("Congratulations! You have finished today's job!")
     elif text[:len("progress ")] == "progress ":
-        progress = text[len("progress "):]
+        progress = text[len("progress "):].strip()
+        if progress[0] == '"' and progress[-1] == '"':
+            progress = progress.strip('"')
         if todo_dict["index"] == 0:
             index = len(todo_dict["list"]) - 1
         else:
@@ -96,7 +108,11 @@ while True:
         todo_dict["progress_dict"][str(index)].append(progress)
         display_one(index)
     elif text[:len("check ")] == "check ":
-        index = int(text[len("check "):])
+        try:
+            index = int(text[len("check "):])
+        except Exception as e:
+            print("You should give me a number after 'check', for example, 'check 0'")
+            continue
         if 0 <= index < len(todo_dict["list"]):
             if index == len(todo_dict["list"]) - 1:
                 todo_dict["index"] = 0

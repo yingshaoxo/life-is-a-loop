@@ -6,6 +6,7 @@ import os
 from auto_everything.disk import Store
 from auto_everything.python import Python
 from pprint import pprint
+from datetime import datetime
 
 
 py = Python()
@@ -37,6 +38,13 @@ def add(text):
 
 
 def remove(index):
+    date_string = str(datetime.now()).split(".")[0]
+    task_string = todo_dict["list"][index]
+    a_list = todo_dict["progress_dict"][str(index)]
+    progress_string = "\n".join([f"{index}. {task}" for index, task in enumerate(a_list)])
+    one_part_of_the_log = date_string + "\n\n" + task_string + "\n\n" + progress_string
+    one_part_of_the_log += "\n\n" + "----------" + "\n\n"
+
     del todo_dict["list"][index]
     del todo_dict["progress_dict"][str(index)]
     for i in range(index+1, len(todo_dict["list"])+1):
@@ -45,6 +53,9 @@ def remove(index):
         todo_dict["progress_dict"].update({
             str(i-1): progress
         })
+
+    with open('log.txt', 'a') as f:
+        f.write(one_part_of_the_log)
 
 
 def display():

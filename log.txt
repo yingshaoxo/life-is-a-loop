@@ -1,0 +1,77 @@
+2022-10-31 14:58:20
+
+"add log function to life-is-a-loop software, format like 'time\n\ncontent'"
+
+
+
+----------
+
+2022-11-01 02:09:28
+
+"manage the disk to maintain more spaces"
+
+0. I did some clean on mobile phone
+1. decided go on after I got the new storage device
+2. finished the document folder's file re-management
+3. I think I need to use the old laptop to do a test about those unity source code
+4. By transferring some TV shows and movies to a mobile SSD, the MacOS got more space
+
+----------
+
+2022-11-01 02:11:38
+
+"backup WeSing songs for once, for example, songs from 4816534217"
+
+0. I don't think it is necessary, those songs are there
+
+----------
+
+2022-11-03 09:14:34
+
+"check if the vultr service still charges if I stop the server"
+
+0. the answer is no
+
+----------
+
+2022-11-05 16:23:18
+
+"set up wifi VPN hotspot first"
+
+0. if we want to set up a wifi VPN hotspot, we must gain the Root Permission first
+1. I got the root access for android 12 system by using magisk; then I use VPN Hotspot opened an VPN-Wifi
+
+----------
+
+2022-11-05 19:29:50
+
+"wash my cloth by using machine"
+
+
+
+----------
+
+2022-11-06 15:44:12
+
+"activate vim global clipboard function"
+
+
+
+----------
+
+2022-11-06 15:44:17
+
+"upload a video to Youtube"
+
+
+
+----------
+
+2022-11-06 16:17:34
+
+"try to use docker to set up a v2ray VPN"
+
+0. by using this project, I got it set up: https://github.com/miladrahimi/v2ray-docker-compose
+
+----------
+

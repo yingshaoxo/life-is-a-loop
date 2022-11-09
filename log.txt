@@ -75,3 +75,38 @@
 
 ----------
 
+2022-11-08 01:31:28
+
+"try to install Padavan in redmi ac2100 router"
+
+0. install successfully, but maybe remain openwrt is a better choice; now i'm trying to access it with ssh
+1. found that it doesn't have v2ray, all of those devices that I have may got hacked, so I decided to try it again with openwrt
+2. I found that padavan is probabally based on openwrt, and it doesn't support v2ray as far as I see. And even if it got Shadowsocks after flash some software, it still not work somehow. So I decided to use switch it back to openwrt
+3. got openwrt installed, it has ssh builtin, which is convenient
+
+----------
+
+2022-11-09 04:06:27
+
+"write a post about how to upgrade redmi ac2100 router system to openwrt"
+
+
+
+----------
+
+2022-11-10 03:55:38
+
+"try to set up v2ray in openwrt"
+
+0. v2ray is set up in openwrt, but I don't know how to use it to proxy all network
+1. but I re-learned more linux commands
+2. got luci-app-v2ray set up, but face some problems with the routing sub-pannel
+3. successfully set up the routing function, it be able to route all world-class website I defined, for example, google, pornhub, twitter, github and so on
+4. the next step is to write about: 1. how to flash openwrt to xiaomi ac2100. 2. how to install opkg package manually.  3. how to install and setup luci-app-v2ray in openwrt
+5. write some docs about what I have learned today; i'm going to set up a global proxy in the router level
+6. failed, the openwrt was broken, so i have to reset it, and all configs are gone. I need to restart the process. But I learned a new idea, which is, we can use iptables to forward those data directly to a socks5 proxy. I need to verify that
+7. by using v2ray dokodemo-door protocol to set up a inbound proxy, with the help of 'uci add firewall', I successfully got a route level proxy; I'll write a POST about it
+8. done
+
+----------
+

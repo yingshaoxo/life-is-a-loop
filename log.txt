@@ -110,3 +110,41 @@
 
 ----------
 
+2022-11-10 04:33:45
+
+"write a post about home-router, talk about how static ip and dhcp and default-route-ip intereact with each other"
+
+0. failed, the experiment env is not stable. will keep doing it after I set up routor level VPN
+1. I think it is kind of hard for me. But you could definately use some tools to simulate the env. For example, v, virtualbox networks, docker networks and so on. (https://www.brianlinkletter.com/open-source-network-simulators
+
+----------
+
+2022-11-10 05:20:51
+
+"find out who is root(0) in the M1 MacOS system"
+
+0. by using 'sudo -s', you could get into root shell in MacOS, but I still don't know who is root(0)
+1. I found 'sudo vim /private/etc/sudoers', and I changed the root password by using `sudo -s` and `sudo passwd root`
+2. it seems like, the root(0) is me
+
+----------
+
+2022-11-10 06:04:02
+
+"distrubute those data out, I mean, share it"
+
+0. do the seeding for torrent or magnet might be a good idea
+1. I wrote a post that talks about my favorite tv shows, animations and movies
+
+----------
+
+2022-11-10 20:47:17
+
+"consider if we need to add a function to life-is-a-loop: put one task to the bottom"
+
+0. I think add a function that puts an item to the top might be more useful
+1. I think I found a bug on life-is-a-loop add function, I need to figure it out if it's true or not, if it is true, I need to fix it
+2. I fixed that bug, and added a new function call 'put that task on the top of that list'
+
+----------
+

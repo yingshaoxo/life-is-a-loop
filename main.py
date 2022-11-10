@@ -36,6 +36,9 @@ def add(text):
         str(len(todo_dict["list"])-1): []
     })
 
+    if len(todo_dict["list"]) == 1:
+        todo_dict["index"] = 0
+
 
 def remove(index):
     date_string = str(datetime.now()).split(".")[0]
@@ -130,6 +133,25 @@ while True:
             else:
                 todo_dict["index"] = index + 1
         display_one(index)
+    elif text[:len("top ")] == "top ":
+        try:
+            index = int(text[len("top "):])
+        except Exception as e:
+            print("You should give me a number after 'top', for example, 'top 0'")
+            continue
+        if 0 <= index < len(todo_dict["list"]):
+            zero_index_item = todo_dict["list"][0]
+            index_item = todo_dict["list"][index]
+            todo_dict["list"][index] = zero_index_item
+            todo_dict["list"][0] = index_item
+
+            zero_index_progress_item = todo_dict["progress_dict"][str(0)].copy()
+            index_progress_item = todo_dict["progress_dict"][str(index)].copy()
+            todo_dict["progress_dict"][str(0)] = index_progress_item
+            todo_dict["progress_dict"][str(index)] = zero_index_progress_item
+
+        os.system('clear')
+        display()
     elif text == "help":
         pprint(todo_dict)
     else:
@@ -143,6 +165,8 @@ add "..."
 progress "..."
 
 check 0
+
+top 0
 
 finish 0
         """)

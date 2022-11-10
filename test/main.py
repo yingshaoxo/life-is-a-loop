@@ -10,7 +10,7 @@ from datetime import datetime
 
 
 py = Python()
-store = Store("todo_list_app")
+store = Store("todo_list_app_test")
 # store.reset()
 # exit()
 
@@ -25,7 +25,7 @@ if store.has_key("todo_dict"):
 
 
 def handler(signal_received, frame):
-    store.set("todo_dict", todo_dict)
+    #store.set("todo_dict", todo_dict)
     print('\nExiting gracefully')
     exit(0)
 

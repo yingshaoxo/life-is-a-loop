@@ -10,9 +10,9 @@ from datetime import datetime
 
 
 py = Python()
-store = Store("todo_list_app")
-# store.reset()
-# exit()
+store = Store("todo_list_app_test")
+#store.reset()
+#exit()
 
 todo_dict = {
     "index": None,
@@ -48,13 +48,20 @@ def remove(index):
     one_part_of_the_log = date_string + "\n\n" + task_string + "\n\n" + progress_string
     one_part_of_the_log += "\n\n" + "----------" + "\n\n"
 
+    old_map = {}
+    for i in range(0, len(todo_dict["list"])):
+        old_map[i] = todo_dict["progress_dict"][i].copy()
+
     del todo_dict["list"][index]
-    del todo_dict["progress_dict"][str(index)]
-    for i in range(index+1, len(todo_dict["list"])+1):
-        progress = todo_dict["progress_dict"][str(i)]
-        del todo_dict["progress_dict"][str(i)]
+    todo_dict["progress_dict"].clear()
+
+    for i in range(0, len(todo_dict["list"])):
+        if i > index - 1:
+            progress = old_map[i+1]
+        else:
+            progress = old_map[i]
         todo_dict["progress_dict"].update({
-            str(i-1): progress
+            str(i): progress
         })
 
     with open('log.txt', 'a') as f:
@@ -133,32 +140,32 @@ while True:
             else:
                 todo_dict["index"] = index + 1
         display_one(index)
-    elif text[:len("put_to_top ")] == "put_to_top ":
+    elif text[:len("top ")] == "top ":
         try:
-            index = int(text[len("put_to_top "):])
+            index = int(text[len("top "):])
         except Exception as e:
-            print("You should give me a number after 'put_to_top', for example, 'put_to_top 0'")
+            print("You should give me a number after 'top', for example, 'top 0'")
             continue
         if 0 <= index < len(todo_dict["list"]):
             index_item = todo_dict["list"][index]
             index_progress_item = todo_dict["progress_dict"][str(index)].copy()
 
-            del todo_dict["list"][index]
-            del todo_dict["progress_dict"][str(index)]
-            for i in range(index+1, len(todo_dict["list"])+1):
-                progress = todo_dict["progress_dict"][str(i)]
-                del todo_dict["progress_dict"][str(i)]
+            progress_backup = todo_dict["progress_dict"].copy()
+            todo_dict["progress_dict"].clear()
+            print(todo_dict)
+            print("---")
+            print(progress_backup)
+            for i in range(0, len(todo_dict["list"])):
+                progress = progress_backup[str(i)]
                 todo_dict["progress_dict"].update({
-                    str(i-1): progress
+                    str(i): progress
                 })
 
             todo_dict["list"] = [index_item] + todo_dict["list"]
-            todo_dict["progress_dict"][str(-1)] = index_progress_item
+            todo_dict["progress_dict"]['0'] = index_progress_item
 
-            new_progress_dict = {}
-            for key, value in todo_dict["progress_dict"].items():
-                new_progress_dict[str(int(key)+1)] = value
-            todo_dict["progress_dict"] = dict(sorted(new_progress_dict.copy().items()))
+            del todo_dict["list"][index+1]
+            #del todo_dict["progress_dict"][str(index+1)]
 
         os.system('clear')
         display()
@@ -176,7 +183,7 @@ progress "..."
 
 check 0
 
-put_to_top 0
+top 0
 
 finish 0
         """)

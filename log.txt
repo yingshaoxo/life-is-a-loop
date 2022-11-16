@@ -164,3 +164,60 @@ test
 
 ----------
 
+2022-11-11 16:00:33
+
+"check if life-simulate requires network or not, if it allows local play and online play at both, then it's an open game"
+
+0. not sure, because when I see the introduction video about it, I feel that it's not the type of game that I like, so I'll just leave this task un-solved
+
+----------
+
+2022-11-12 10:01:02
+
+"yingshaoxo's diary app back into the phone"
+
+0. found an app called 'freedom', it was made by me with the help of flutter; I should try to find some backups(old diary)
+1. installed. and I even imported those old data.
+
+----------
+
+2022-11-13 01:56:43
+
+"check if I need to have a mobile todo list app, if so, I shall try different apps. if no one matchs my needs, I shall make one myself."
+
+0. no need, the xiaomi's default note app is good for using for now
+
+----------
+
+2022-11-17 02:36:52
+
+"see if we can use UTM's win7 system to unlock xiaomi's bootloader"
+
+0. win7 system install successfully
+1. suddently, I think, if we could use wireshark to get the bootloader password from xiaomi's api, then we could just use linux to unlock the phone
+2. I didn't make it work, but I found someone did it before: https://forum.xda-developers.com/t/possible-new-way-of-unlocking-the-bootloader.4009009; we may unlock the xiaomi phone using some third-party software: https://github.com/mc-17/xiaomi-bootloader/blob/master/README.md
+3. I still couldn't make it work on the MacOS I'm using. But I found someone else could make it done by using linux virtual software: https://adryanreis.medium.com/how-to-unlock-bootloader-xiaomi-in-linux-857d2f01128e
+4. I coundn't use UTM to unlock the xiaomi's bootloader, it simply because MacOS m1 do not support windows10. But I did another test on Linux virtualbox, where I installed windows10 and miflash tools, it is working pretty good. But one thing you need to do is to install the right android driver. You could do it by installing an app called QuDongJingLing
+
+----------
+
+2022-11-17 03:30:13
+
+"see if we can uncompress Nemu android simulator dmg file"
+
+0. as I tested out, we could. by using 7z, I successfully got the ova file from the payload hidden file, it should be able to get running in virtualbox. but since I'm using m1 macos, i decided to convert ova file to something that UTM could run
+1. it turns out UTM could directly import the ova file as disk storage. so in theory, utm and virtualbox can excahnge containers. but for this case, since neteast did something to their image, so we couldn't run their android simulator directly from virtualbox
+
+----------
+
+2022-11-17 03:35:05
+
+"find out who's unmounting the removeable disk"
+
+0. it turns out is the macos built-in battery manager does it, it will put hard disks to sleep when display is off. in my case, it will poweroff the removeable disk
+1. it seems like no one umount the disk anymore. but they directly make the removeable disk disappear, which is worse
+2. for most of the case, you can find bad software from launch items, some of them also call it startup apps, or services that gets running at boot time. for macos m1, it is located in /Library/LaunchDaemons or /Library/LaunchAgents
+3. oh, if the usb get loaded by another sub-virtual-system, like UTM, it will also get unmounted for somehow
+
+----------
+

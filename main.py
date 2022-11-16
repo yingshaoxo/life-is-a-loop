@@ -24,8 +24,12 @@ if store.has_key("todo_dict"):
     todo_dict = store.get("todo_dict", todo_dict)
 
 
-def handler(signal_received, frame):
+def save():
     store.set("todo_dict", todo_dict)
+
+
+def handler(signal_received, frame):
+    save()
     print('\nExiting gracefully')
     exit(0)
 
@@ -38,6 +42,8 @@ def add(text):
 
     if len(todo_dict["list"]) == 1:
         todo_dict["index"] = 0
+
+    save()
 
 
 def remove(index):
@@ -59,6 +65,8 @@ def remove(index):
 
     with open('log.txt', 'a') as f:
         f.write(one_part_of_the_log)
+
+    save()
 
 
 def display():
@@ -121,6 +129,7 @@ while True:
             index = todo_dict["index"] - 1
         todo_dict["progress_dict"][str(index)].append(progress)
         display_one(index)
+        save()
     elif text[:len("check ")] == "check ":
         try:
             index = int(text[len("check "):])
@@ -162,6 +171,7 @@ while True:
 
         os.system('clear')
         display()
+        save()
     elif text == "help":
         pprint(todo_dict)
     else:

@@ -221,3 +221,27 @@ test
 
 ----------
 
+2022-11-24 10:21:42
+
+"find the lost gitbook part, where I have talked about what is nessesary for life, especially coding life"
+
+0. it is in the hero-growth-record book, it is inside of 'house environment building guide'
+
+----------
+
+2022-11-24 10:24:20
+
+"see if it is possible to use finger to lock the phone, i mean, use the finger to touch the back of the phone"
+
+0. yes, it is possible. but I coundn't find the perfect one that could work under the background
+
+----------
+
+2022-11-24 23:57:17
+
+"see if auto-lock will work or not in android development: use AI and accelerometer xyz data to check if user wanted to put their phone into packet or not, if so, lock the screen"
+
+0. it can be done by using two sensor devices, one can get the brightness of the env, another can get the pose of the phone(straight up or laying down
+
+----------
+

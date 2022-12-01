@@ -245,3 +245,61 @@ test
 
 ----------
 
+2022-11-25 00:02:45
+
+"if I can't live independently in the next year, I'll cut my ear feeling ability"
+
+0. I think I could, by going to ShenZhen to start a new life
+1. There are three routes: GuangAn->ChongQing->ShenZhen or GuangAn->ChengDu->ShenZhen or GuangAn->GuangZhou->ShenZhen
+2. got out successfully. looking for a new way of living in ShenZhen
+3. well, I did it. tried living in shenzhen 3 days by walking around. Will test if I could directly get into HongKong
+4. not for now, but I think if you just have a light bag on your back, you may make it
+
+----------
+
+2022-11-25 00:40:06
+
+"Run a BBS(website)"
+
+0. by using dev service like heroku, it would be much easyer for us to create a startup website
+1. local docker-desktop is broken, I decided to switch to cloud to do the docker image building
+2. now we could use docker-compose to run nginx and php code, but coundn't connect to mysql yet, need to figure out why
+3. now we could connect to mysql database. and I did an update on geekland's readme file, added an install script. wait to upload to github by using command line tool
+4. successfully pushed to github
+5. found a new BBS software, but can't directly start it from docker side, I'm doing the 'hack' here
+6. learned more about docker and docker-compose, ready for looking for another BBS repo, so that I could have a try on them
+7. successfully served the mybb software, now we could create our own Forum
+8. I could record a video while install mybb on the server
+9. will make a BBS from scrach by myself be an good idea?
+10. setted up the BBS under the https: https://bbs.ai-tools-online.xyz; need to change the home page icon
+11. icon changed. and I have also removed the verification for user registering
+12. I need to learn how to export and import the postgresql data, so the service is maintainable
+13. this is how you export and import the postgresql data: https://yingshaoxo.blogspot.com/2022/11/how-to-export-and-import-postgresql-data.html
+
+----------
+
+2022-11-25 20:00:30
+
+"do a test about py-pf"
+
+0. as I tested out, py-pf will not work on MacOS m1 laptop for now
+
+----------
+
+2022-11-27 10:43:12
+
+"find a place to take shower"
+
+0. find one in shenzhen. it turns out the place I need has another name, called 'LinYuFang'
+
+----------
+
+2022-11-29 10:12:23
+
+"need to make sure auto_everything is working in macos m1"
+
+0. so far, the problem is related to psutil
+1. fixed, it is not about yhr psutil, it is working good with brew in macos
+
+----------
+

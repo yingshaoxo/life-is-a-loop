@@ -361,3 +361,36 @@ test
 
 ----------
 
+2022-12-11 15:26:30
+
+"Use DeepLearning tech to make my OBS recording have better quality, I mean the voice. Here is the basic process: 1. noise cancel. 2. sound match. 3. speech strengthen/beautify"
+
+0. it should be inside of DeepAudio class in the auto_everything package
+1. tried 'speechbrain/mtl-mimic-voicebank', it works but only support 16k sample rate, which is not enough.
+2. I should try 'Rikorose/DeepFilterNet' or 'facebookresearch/denoiser'
+3. 'Rikorose/DeepFilterNet' seems to be good at noise canceling. but it is written by rust. I don't know if it can be  easily integrated into auto_everything or not
+4. denoiser doesn't have a pre-trained model that could support sample-rate 48000, so we won't use it
+5. integrate DeepFilterNet into DeepAudio module successfully
+
+----------
+
+2022-12-12 14:27:38
+
+"test loehnertz/rattlesnake in macos"
+
+0. the real time noise cancel not working because of the process speed
+1. need to do some modification to make it run faster
+2. I made it. and along the way, I got more knowledge about pyaudio
+3. rattlesnake not working in macos, because it is slow. I think it could do the job after the next tech age
+
+----------
+
+2022-12-21 13:10:44
+
+find a person to help me finish the exam
+
+0. so far, the cheapest solution will cost 1200 RMB. I didn't buy it. Then I have published a task on https://zb.oschina.net/workbench/reward/manager.html#/detail?id=16566431, we'll see if 400 RMB will solve the problem or not. (by the way, I did a lot of ask today
+1. found a girl that could do the job for me
+
+----------
+

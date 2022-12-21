@@ -68,6 +68,24 @@ def remove(index):
 
     save()
 
+def put_to_bottom(index):
+    if 0 <= index < len(todo_dict["list"]):
+        index_item = todo_dict["list"][index]
+        index_progress_item = todo_dict["progress_dict"][str(index)].copy()
+
+        del todo_dict["list"][index]
+        del todo_dict["progress_dict"][str(index)]
+        for i in range(index+1, len(todo_dict["list"])+1):
+            progress = todo_dict["progress_dict"][str(i)]
+            del todo_dict["progress_dict"][str(i)]
+            todo_dict["progress_dict"].update({
+                str(i-1): progress
+            })
+
+        todo_dict["list"] = todo_dict["list"] + [index_item]
+        todo_dict["progress_dict"][str(len(todo_dict["progress_dict"]))] = index_progress_item
+
+        save()
 
 def display():
     a_list = todo_dict["list"]
@@ -172,6 +190,15 @@ while True:
         os.system('clear')
         display()
         save()
+    elif text[:len("put_to_bottom ")] == "put_to_bottom ":
+        try:
+            index = int(text[len("put_to_bottom "):])
+        except Exception as e:
+            print("You should give me a number after 'put_to_bottom', for example, 'put_to_bottom 0'")
+            continue
+        put_to_bottom(index)
+        os.system('clear')
+        display()
     elif text == "help":
         pprint(todo_dict)
     else:
@@ -187,6 +214,8 @@ progress "..."
 check 0
 
 put_to_top 0
+
+put_to_bottom 0
 
 finish 0
         """)

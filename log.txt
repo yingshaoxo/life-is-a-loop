@@ -394,3 +394,37 @@ find a person to help me finish the exam
 
 ----------
 
+2022-12-24 12:23:56
+
+"upgrade LocalShow to save play history, I mean for each folder, save one index(name) that indicates the last video the user watched"
+
+0. found the Dockerfile can get upgraded by puting the react and go software building process into it, so that the CI/CD pipeline could only take the source code in, make the product out
+1. converted the react.js to react.ts; add modern dockerfile
+2. now it saves last watching history
+
+----------
+
+2022-12-24 15:56:15
+
+"Write a tutorial about how to use dockerfile and nuitka to compile python code, to make python app take minimum size in docker container"
+
+0. done, the building is very successful. everything is working fine: https://github.com/yingshaoxo/work-with-fastapi-and-graphql/blob/main/build.sh
+
+----------
+
+2022-12-28 20:30:58
+
+"fix the bug in HeroEntertainmentCenter"
+
+
+
+----------
+
+2023-01-10 21:28:45
+
+"use v2ray to let android simulator could use domain to visit host localhost ip address"
+
+0. by using http proxy in wifi settings, it would work as expected
+
+----------
+

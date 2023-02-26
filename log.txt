@@ -428,3 +428,121 @@ find a person to help me finish the exam
 
 ----------
 
+2023-02-11 17:46:53
+
+"create a package that converts protobuff code into rust,go,python,typescript,dart key-value map, str(key) == value"
+
+0. made python, rust, kotlin version
+
+----------
+
+2023-02-26 14:45:47
+
+"see if we can run an email system"
+
+0. if we have an email system, we could use it to recommend new products to our users
+1. I found an already made email system, which is called 'Mailu'. It is an open source project on github. It supportss email standards like SMTP, IMAP and so on; I'll have a try with it
+2. yes, I could run a email system, but to let it communicate with outside email system, we'll need to have a free server in the cloud. I mean a server where the owner do not ban email port
+
+----------
+
+2023-02-26 14:46:33
+
+"delete a file everyday"
+
+0. we could buy new SSD storage, so we don't have to delete a file everyday
+
+----------
+
+2023-02-26 14:52:46
+
+"create a python script to generate MyDiary markdonw file tree content, then write it to README.md; after that, try to convert it to typescript version so that the VScode-Diary extension can use it"
+
+0. the python version is done
+1. the typescript version is also done, but have some little problems, I mean the new feature do not support windows. I'll try to fix it the next time, where I'll also publish a new version
+2. need to fix a bug here
+3. confirmed no bug here
+4. I think it is good enough for now
+
+----------
+
+2023-02-26 14:53:37
+
+"fix bugs in my_shell"
+
+0. my_shell is a shell program written by me with the help of python
+1. so far, I didn't see a lot of bugs
+2. pause it here, I think I may need to create my own programming language
+
+----------
+
+2023-02-26 14:54:10
+
+"let auto_everything use poetry3.1. make sure it can be published to pypi"
+
+0. now we could use 'poetry build' to build python package. need to do a pypi package publish test after I finish the  development of new version auto_everything
+1. now, the new version of auto_everything is already on the pypi
+
+----------
+
+2023-02-26 14:56:11
+
+"see if I need to upgrade c plus plus"
+
+0. need, because the old language syntax is totally garbage
+1. I don't want to do the cpp programming at MacOS, it may hurt the system
+2. need to set up a remote control mechanism
+3. it seems like by using shell regex expression function, we could also make a programming language
+4. remote set successfully by using anydesk
+5. I'll do it when everything seems to be right
+6. I think based on golang, I could create a fresh new programming language.
+7. There's a project called pytago, I think we could use it to make a new programming language. Here is the process: use python to write a convertor that converts new-programming-language to golang, then compile it
+8. before that, we may use python to create a simple interpreter, which people normally call it 'shell'
+9. unless gcc add support to cpp20 module, otherwise, I won't use it. we simply need one command to compile those cpp code
+
+----------
+
+2023-02-26 14:59:02
+
+"see if continue to develop WeNeedParty app is an good idea or not"
+
+0. let's do a maintain first. do a check to see if the tencent service is still OK or not. because the app uses tencent as the cloud service
+1. tencent service is still working. and I even add a VPN bridge there by using v2ray
+2. we'll continue dev it after 2023.3, because the macos system I am using is not stable, may got hacked from hardware level
+3. macos is working normal again; someone contacted me, ask me to develop a audio/video call app, I think I could try to set up a https version server and write a tutorial about it for both that guy and this project
+4. the tutorial was quite successful, the next step is to make the demo better, then based on it, upgrade the whole we_love_party project
+5. here is the network structure upgrade plan for we_love_party: all service listens 127.0.0.1, only traefik listens 0.0.0.0's 443 port, traefik do a map, convert domain(https url) request to localhost ip request. and for those requests that can't pass the jwt header auth, we drop it
+6. add grpc version of user_auth_service; update grpc protocols; add more design ideas
+7. find a way to use traefik to proxy grpc
+8. "finish the test with traefik forwardAuth and grpc metadata(headers)'s JWT; fix a bug of sqlalchemy;  name, IsJwtOk
+9. now we could use traefik forwardAuth middleware to parse JWT into email for every service behind it, so that other service could directly do their own job with an email identity
+10. finish the basic version of account user storage system, now the golang service can modify user's data with safety in mind, which means they can only change their own data
+11. if we are going to make a people recommend system, we are going to build two sub system, one for girls, one for boys
+12. set up the flutter grpc system, so that we could start the flutter dev process
+13. refactor the flutter client, make the page more safe and responsive
+14. add a facescan page to flutter client, the next step is to use that face image to get user gender, age
+15. now we could get gender and age from face
+16. review the python-jwt-auth part, try to understand the inner logic. especially how I did it by using redis
+17. now I got the basic audio chat app running. the next step is to make tabs to contain more features
+18. add tabs bar: party, free map, friends, me
+19. use java/kotlin + grpc to make the free map backend service
+20. finish the chat service and UI part; need to do a refactory to make sure the real-time function is reliable and sat the meantime, save more power
+21. backend code is running in the server now, we need to do more test. and make a backend database management system by using react or vue
+22. it is a good idea to continue to dev it. I'll add a new task for the following dev for weloveparty
+
+----------
+
+2023-02-26 15:00:21
+
+"see if we have to return or sell the m1 mac laptop to gain some freedom of network and software"
+
+0. if it have iptables and virtualbox support, i'll keep it
+1. start to feel hopeless, UTM in m1 MacOS is like a shit. well, it's all on m1 mac, it's kind of like a garbage platform
+2. the return price is too low, I don't think it is worth for doing that
+3. found a python package as the iptables alternative on macos: dotpy/py-pf
+4. pending...
+5. I think if you use it under a VPN wifi, it's fine to use. But you'd better go to a place where has no network limitations; can't use virtualbox is still a big problem
+6. already made a sell AD, wait for the buyer
+
+----------
+

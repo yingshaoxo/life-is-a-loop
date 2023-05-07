@@ -546,3 +546,68 @@ find a person to help me finish the exam
 
 ----------
 
+2023-04-24 04:36:29
+
+"add types to auto_everything.video module"
+
+
+
+----------
+
+2023-04-24 04:38:58
+
+add packages I dev in online resume
+
+
+
+----------
+
+2023-04-24 04:40:22
+
+"try to find a place to clean my cloth in the airport station"
+
+0. I think you could wash your socks in the bathroom, if you want. because I tried, it works
+1. the bathroom is the only option for now
+
+----------
+
+2023-04-24 04:41:02
+
+"doing exercise on your body"
+
+0. It seems like I'm doing the exercise everyday, like, walking around.
+
+----------
+
+2023-04-24 18:07:41
+
+"write a html documentation generator for python module, it only reads classes and functions name and arguments and docstring, it renders those things directly without any additional stuff."
+
+0. done, it's now a function in auto_everything package
+
+----------
+
+2023-05-01 11:28:39
+
+add bakeup and recovery function into it_has_alternatives admin page
+
+
+
+----------
+
+2023-05-06 23:31:26
+
+find every python .capitalize() function, replace it with your own function
+
+
+
+----------
+
+2023-05-07 09:38:18
+
+let torrent traffic bypass the server in v2ray
+
+0. v2ray can only open a direct connect port, which require the torrent application has a proxy setting interface
+
+----------
+

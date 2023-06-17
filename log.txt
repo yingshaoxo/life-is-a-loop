@@ -611,3 +611,99 @@ let torrent traffic bypass the server in v2ray
 
 ----------
 
+2023-05-10 01:51:30
+
+check why '@' aren't in flutter email send funcion
+
+0. It's a frontend bug, need to publish a new version
+
+----------
+
+2023-05-10 01:52:03
+
+make we_love_party docker container has smaller size by rewrite dockerfile or split docker-compose.service.yaml file
+
+0. did a simple split for the service.yaml file
+
+----------
+
+2023-05-19 13:53:11
+
+make a simple website tool to add trackers to an existed magnet link
+
+0. done: https://github.com/yingshaoxo/add_tracker_to_torrent_magnet_link_website
+
+----------
+
+2023-05-19 20:06:54
+
+"create advanced-no-more-chinese plugin for chrome and android, which will simply place all chinese to space"
+
+0. we could, but it takes too much energe to replace graph text by using OCR and overlay layout, so give up this idea
+
+----------
+
+2023-05-20 22:37:55
+
+make a white list version v2ray docker-compose file to only allow certain website access
+
+0. it can be done with v2ray: https://yingshaoxo.blogspot.com/2023/05/how-to-use-v2ray-to-set-up-whitelist.html
+
+----------
+
+2023-05-25 10:24:19
+
+add classic controller to dolphin_emulator
+
+0. done: https://github.com/yingshaoxo/dolphin
+
+----------
+
+2023-05-25 11:37:58
+
+"merge new golang pull and check+fix compile errors"
+
+
+
+----------
+
+2023-06-10 19:08:33
+
+"make an xposed paid app to google play to hide for_you tab in twitter app"
+
+0. you can consider create your own virtualbox android app, charge for 0.1 dollar
+1. make only-show english twitter as an option
+2. disable ad as default without telling user this feature exists
+3. the newest version of twitter can remember the last tab, so no need to do more modifications
+4. I made another xposed app that could hide twitter AD and twitter Chinese tweets
+5. already put it on google play store: https://play.google.com/store/apps/details?id=xyz.yingshaoxo.tweet_xposed
+
+----------
+
+2023-06-10 19:15:38
+
+"create a grpc generator by only using pure python, it has to support python,dart,kotlin,rust,go,typescript"
+
+0. now, in auto_everything package, it already supports python,dart,typescript
+1. I don't think other language is worth for supporting
+
+----------
+
+2023-06-17 18:48:20
+
+"create a flutter version game emulator"
+
+0. I didn't create a flutter version game emulator. I created a nes emulator based on lemuroid
+
+----------
+
+2023-06-17 18:49:43
+
+"make a virtualbox android app, which supports xposed and have all kinds of p2p app built-in. only put normal app chrome inside by default"
+
+0. also add LAN apps to it, like KuaiYa
+1. how about create a fake appstore, where you can install all local built-in app. but it looks like downloaded from network
+2. I ended up with creating app that has virtualbox and all kinds of apps you need: https://play.google.com/store/apps/details?id=xyz.yingshaoxo.atlantis_space
+
+----------
+

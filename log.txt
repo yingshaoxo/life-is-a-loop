@@ -707,3 +707,19 @@ add classic controller to dolphin_emulator
 
 ----------
 
+2023-06-19 16:25:15
+
+"write a python command line to UI wrapper"
+
+0. done, it is in auto_everything python module
+
+----------
+
+2023-06-19 16:35:25
+
+"write a DS_Store deletor"
+
+0. done, now it is in Tools.py file
+
+----------
+

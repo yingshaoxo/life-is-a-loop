@@ -1,3 +1,4 @@
+#!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python
 #!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python3
 #!/usr/bin/env /opt/homebrew/opt/python@3.11/bin/python3.11
 #!/usr/bin/env /opt/homebrew/opt/python@3.10/bin/python3.10

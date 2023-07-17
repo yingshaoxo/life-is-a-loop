@@ -5,6 +5,8 @@ time_ = Time()
 saying = """
 不能被分心，be focus
 
+And sort tasks with new value standards: influence. The bigger, the better.
+
 你离成功就差一点距离，主要是干扰太强，be focus
 
 
@@ -21,13 +23,14 @@ saying = """
 
 How to fix?
 Be focus on your own goal.
+And sort tasks with new value standards: influence. The bigger, the better.
     """.strip()
 
 from tkinter import Tk, Label, messagebox, font, CENTER, Button
 
 root_window = Tk()
 root_window.title('')
-root_window.geometry("800x600")
+root_window.geometry("1280x800")
 root_window.configure(bg='white')
 
 label=Label(root_window, text=saying, font='Helvetica 20 bold', background="white")

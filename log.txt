@@ -723,3 +723,23 @@ add classic controller to dolphin_emulator
 
 ----------
 
+2023-07-07 21:45:18
+
+"clean the house"
+
+
+
+----------
+
+2023-07-07 21:46:26
+
+"create a phone call to text android app that simply converts phone call to text  without phone alert, and reply with 'please contact me with email xx@xx.com'"
+
+0. it can also be used to reset_password by verifying user's phone, for example, let user answer random_number in real_time
+1. bard says: Automate is another powerful automation app that can be used to auto answer calls and play pre-recorded audio. Automate is free, but it is not as flexible as Tasker.
+2. antomate auto_answer only works for android 5-7
+3. one_thing is sure, it can be done by using bluetooth hardware
+4. I made one in here: https://github.com/yingshaoxo/calling_to_email_app
+
+----------
+

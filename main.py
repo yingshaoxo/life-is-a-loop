@@ -1,19 +1,19 @@
-#!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python
 #!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python3
-#!/usr/bin/env /opt/homebrew/opt/python@3.11/bin/python3.11
-#!/usr/bin/env /opt/homebrew/opt/python@3.10/bin/python3.10
-#!/usr/bin/env /usr/bin/python3
+#!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python
 from signal import signal, SIGINT
 from sys import exit
 import os
 from auto_everything.disk import Store
 from auto_everything.python import Python
+from auto_everything.io import IO
 from pprint import pprint
 from datetime import datetime
+import json
 
 
 py = Python()
 store = Store("todo_list_app")
+io_ = IO()
 # store.reset()
 # exit()
 
@@ -25,7 +25,7 @@ todo_dict = {
 
 if store.has_key("todo_dict"):
     todo_dict = store.get("todo_dict", todo_dict)
-
+    io_.write("todo.txt", content=json.dumps(todo_dict, indent=4, sort_keys=True))
 
 def save():
     store.set("todo_dict", todo_dict)

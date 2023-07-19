@@ -1,0 +1,133 @@
+{
+    "index": 23,
+    "list": [
+        "\"create a wifi router that could cover 500 meter circle\"",
+        "try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a localhost website(make it configureable, for example, show it when doing the connection and the following 1 minute",
+        "let everyone who call my number hear 'due to the one you calling refuse to waste their time to listen to you, for english speaker, please send email to yingshaoxo@gmail.com, for chinese speaker, please send email to 1576570260@gmail.com'",
+        "\"talk with my friends by watching video, listen music, and so on\"",
+        "\"create an AI asistant by using techs like speech-recognition, text-to-speech, chat-gpt\"",
+        "\"try a code grammer error auto fix AI: take right code, add random chars until error happen, get wrong code; input wrong code, predict right code\"",
+        "\"see if it is possible to only use 1 picture or 10 seconds video to copy one girl's face into a sex video in MacOS m1\"",
+        "\"empower others to speak English, to go out for working, even if it is just remote job\"",
+        "\"see if we can use camera to capture our eyes movements signal, then use it to move the mouse. the final goal is to use the camera to move the first person game view\"",
+        "\"Run an online game\"",
+        "\"record a youtube video about how to set up router level vpn. in that process, I shall also set up the luci-app-v2ray.\"",
+        "\"make a AI model that could do the math OCR\"",
+        "\"see how can we go out, I mean, do a migration to advanced countrys, go to those places that doesn't need VPN to visit Google, pornhub, youtube and so on.\"",
+        "\"try to find a job\"",
+        "\"make a moonVR_player clone with react-xr(https://github.com/pmndrs/react-xr)\"",
+        "\"continue weloveparty dev\"",
+        "\"create a new programming language that fits every needs I have according the gitbook description\"",
+        "\"consider use python to remade a redbeanphp like package to handle sqlite3 database\"",
+        "make an open online shop by using vite and python and yrpc, it should have no censorship",
+        "apply 'delay reward' to mario machine learning code (use 1 second later reward as the target value",
+        "\"make an xposed paid app to change device type, like hide xiaomi phone type, use google phone instead\"",
+        "\"make a project encryption function that encrypt and decrypt a project, make sure all source code file that end with .py .ts .js .kt .java .go .rs .c .cpp gets encrypted, and be able to decrypt that project correctly. Leave a custom function to allow users to convert the text encryption manually\"",
+        "\"build ubuntu touch for xiaomi 11 pro\"",
+        "\"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you.\"",
+        "\"Make and run an online novel writing and subscribe platform.\"",
+        "\"publish a new version of freedom that supports lazy page loading when doing the search\"",
+        "\"try to create my own auto-complete vim plugin by using NerdTree as the base\"",
+        "\"add amd super resolution to auto_everything video module\"",
+        "\"make my own version of amd64 and aarch64 linux system\""
+    ],
+    "progress_dict": {
+        "0": [],
+        "1": [
+            "http traffic redirection can be done in v2ray. but wifi login need to be done in vpnhotspot. i wrote a post about it: https://yingshaoxo.blogspot.com/2023/05/how-to-use-v2ray-to-set-up-whitelist.html"
+        ],
+        "10": [
+            "I did some modification for luci-app-v2ray repo. I think it would be better to wait for the merge request done before I go on. Because that would make the record process smooth, and it also simplifies the installation process for our users.",
+            "waiting for macos m1 machine support virtualbox"
+        ],
+        "11": [
+            "you could try mlkit ocr flutter package first",
+            "another goal: \"Read this math formula for me\". Convert math formula into human understandable sentence."
+        ],
+        "12": [
+            "join Google team might be a good idea",
+            "join a travel team would also be an idea",
+            "grow up and gain the independence and freedom first is essential for this case, because that will allow us to go whatever place we wanted to go",
+            "here is the plan: 1. go to shenzhen. 2. live alone. 3. find a coding job. 4. work for months. 5. don't waste my money. 6. go travel in advanced country (better with a girl). 7. run away and settle down. 8. never go back to china.",
+            "we are in the 3. we need to find a job to gain more money to be able to buy a VISA:(Visitors International Stay Admission) or passport. then go travel to advanced county. (but if we can directly found a US based job, we could directly go to there"
+        ],
+        "13": [
+            "I mean coding job",
+            "I just submitted a resume to Google",
+            "I said a lot of hi to Chinese HR",
+            "create a company by ourselves is a good idea?",
+            "I just submitted my resume to amazon, Apple company",
+            "I just submitted my resume to a HK based company",
+            "submitted three resume out by using their official website",
+            "sent my resume to \u2018Embassy of the United States, GuangDong', we'll see if they will help or not",
+            "I just sumitted 3 resume to anglelist's company",
+            "I just submitted a resume to American Express",
+            "I just submitted a resume to cognizant",
+            "I just submitted a resume to BBC",
+            "I just submitted resume to a lot of company, like Synpulse8, Canonical(ubuntu)",
+            "I suddently found those software developemnt company won't pay low-salary to associate degree holders, they care more about what you are capable of doing",
+            "\"[ Photo ]",
+            "I've sent a resume to HK airport.",
+            "I've sent my CV to Schroders, MichaelPage, NAHC",
+            "I just send my CV to ManpowerGroup HK,Crossover",
+            "I just send my resume to barclays,Laboratory of Data Discovery for Health Limited (D\u00b24H), intactfc, Canonical",
+            "I just submitted my CV to Randstad Hong Kong",
+            "I've submitted a lot of CV/resume to a lot of UK, US company, including Netflix",
+            "I've submitted a lot of resume to some open countrys"
+        ],
+        "14": [],
+        "15": [
+            "make a backend database management system by using react or vue",
+            "in the end, I use flutter to make the management user interface"
+        ],
+        "16": [
+            "it only have to support 2 platform: amd64 and arm64",
+            "For better fit users expectation, we'd better convert this new programming language to Python,Typescript,C++,Golang,C#,dart,kotlin first, then convert it to binary file",
+            "I have made a simple demo called hero, where I use python to convert the code into cpp code. (by the way, the cpp compilling and built-in functions are hard to use, like a shit)",
+            "Use golang as the base language seems to be better according to my experiment",
+            "we could try to use dart as the backend language: dart.dev/tools/dart-compile",
+            "maybe use magnet link to serve library is a good idea"
+        ],
+        "17": [
+            "check this: https://github.com/jonathan-kosgei/pybean",
+            "I start to think that maybe use couchdb is a good idea",
+            "use sqlite3 is also fine",
+            "for each user, we make a sqlite file for them, in the end, it makes no difference compared to mysql",
+            "consider to include this into yrpc as another generated python file, so that it could compete with springboot"
+        ],
+        "18": [],
+        "19": [
+            "so far, it works ok"
+        ],
+        "2": [],
+        "20": [
+            "this is to make sure I could directly download the sky game in google play",
+            "I found a project: Android1500/AndroidFaker"
+        ],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [],
+        "26": [],
+        "27": [],
+        "28": [],
+        "3": [],
+        "4": [
+            "paddlepaddle seems to be a good tool for this job: https://github.com/PaddlePaddle/PaddleHub/tree/develop/modules#audio",
+            "forget about paddle, use pytorch, they got everything you need to built an english based assistant",
+            "I suddently found vosk is better than pytorch in voice to text task, and vosk only required 40MB model"
+        ],
+        "5": [],
+        "6": [
+            "I have selled the MacOs laptop, so we'll do it on Linux"
+        ],
+        "7": [
+            "I think it can be done by talking to people, of course, in English"
+        ],
+        "8": [
+            "it is definitely possible, you can see it here: https://app.gazerecorder.com/Study/Test/?Watch=1&StudyID=study_8eabbbf1-87d6-4977-a124-de646137c571&Live=1"
+        ],
+        "9": []
+    }
+}

@@ -29,7 +29,9 @@
         "\"publish a new version of freedom that supports lazy page loading when doing the search\"",
         "\"try to create my own auto-complete vim plugin by using NerdTree as the base\"",
         "\"add amd super resolution to auto_everything video module\"",
-        "\"make my own version of amd64 and aarch64 linux system\""
+        "\"make my own version of amd64 and aarch64 linux system\"",
+        "\"use ml5.js or tensorflow.js, rnn/lstm or transformer to make an offline webpage translation plugin, for example, translate the page by simply import a javascript script\"",
+        "\"create an offline webpage real time translation npm plugin\""
     ],
     "progress_dict": {
         "0": [],
@@ -112,7 +114,9 @@
         "26": [],
         "27": [],
         "28": [],
+        "29": [],
         "3": [],
+        "30": [],
         "4": [
             "paddlepaddle seems to be a good tool for this job: https://github.com/PaddlePaddle/PaddleHub/tree/develop/modules#audio",
             "forget about paddle, use pytorch, they got everything you need to built an english based assistant",

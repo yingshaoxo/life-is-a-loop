@@ -9,6 +9,8 @@ And sort tasks with new value standards: influence. The bigger, the better.
 
 你离成功就差一点距离，主要是干扰太强，be focus
 
+(And ignore those bad_act people.
+
 
 
 前途摧毁3要素：

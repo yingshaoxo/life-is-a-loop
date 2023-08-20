@@ -743,3 +743,65 @@ add classic controller to dolphin_emulator
 
 ----------
 
+2023-08-20 23:52:27
+
+"consider use python to remade a redbeanphp like package to handle sqlite3 database"
+
+0. check this: https://github.com/jonathan-kosgei/pybean
+1. I start to think that maybe use couchdb is a good idea
+2. use sqlite3 is also fine
+3. for each user, we make a sqlite file for them, in the end, it makes no difference compared to mysql
+4. consider to include this into yrpc as another generated python file, so that it could compete with springboot
+5. I indeed created a module in auto_everything database module to do that thing, it is better then redbean
+
+----------
+
+2023-08-20 23:54:01
+
+"create an offline webpage real time translation npm plugin"
+
+0. this can be done in 3 hours, you just have to create a python script to do the sentence/word extraction, then use one javascript file to process the html elements text. it could be done by using a dict data structure.
+
+----------
+
+2023-08-20 23:55:05
+
+"make a project encryption function that encrypt and decrypt a project, make sure all source code file that end with .py .ts .js .kt .java .go .rs .c .cpp gets encrypted, and be able to decrypt that project correctly. Leave a custom function to allow users to convert the text encryption manually"
+
+0. I made one module in auto_everything
+
+----------
+
+2023-08-20 23:56:09
+
+let everyone who call my number hear 'due to the one you calling refuse to waste their time to listen to you, for english speaker, please send email to yingshaoxo@gmail.com, for chinese speaker, please send email to 1576570260@gmail.com'
+
+0. it is done by using another phone, when someone call phone a, phone b play the pre_recorded sound
+
+----------
+
+2023-08-20 23:56:29
+
+"use ml5.js or tensorflow.js, rnn/lstm or transformer to make an offline webpage translation plugin, for example, translate the page by simply import a javascript script"
+
+
+
+----------
+
+2023-08-20 23:58:11
+
+apply 'delay reward' to mario machine learning code (use 1 second later reward as the target value
+
+0. so far, it works ok
+1. it is better to use similarity method to do the supervised learning, for example, by using 8 continues 16*16 images, the mario can do very well
+
+----------
+
+2023-08-20 23:59:04
+
+make an open online shop by using vite and python and yrpc, it should have no censorship
+
+0. i indeed created one, it is called 'style shop', I have used yrpc. it is working very well.
+
+----------
+

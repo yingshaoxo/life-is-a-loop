@@ -805,3 +805,13 @@ make an open online shop by using vite and python and yrpc, it should have no ce
 
 ----------
 
+2023-08-24 12:50:26
+
+"make an xposed paid app to change device type, like hide xiaomi phone type, use google phone instead"
+
+0. this is to make sure I could directly download the sky game in google play
+1. I found a project: Android1500/AndroidFaker
+2. I think it is better to create a new mobile system that do not provide device detection API
+
+----------
+

@@ -17,15 +17,14 @@
         "\"make a moonVR_player clone with react-xr(https://github.com/pmndrs/react-xr)\"",
         "\"continue weloveparty dev\"",
         "\"create a new programming language that fits every needs I have according the gitbook description\"",
-        "\"make an xposed paid app to change device type, like hide xiaomi phone type, use google phone instead\"",
-        "\"build ubuntu touch for xiaomi 11 pro\"",
         "\"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you.\"",
         "\"Make and run an online novel writing and subscribe platform.\"",
         "\"publish a new version of freedom that supports lazy page loading when doing the search\"",
         "\"try to create my own auto-complete vim plugin by using NerdTree as the base\"",
         "\"add amd super resolution to auto_everything video module\"",
         "\"make my own version of amd64 and aarch64 linux system\"",
-        "\"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something.\""
+        "\"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something.\"",
+        "create my own version of broswer, it should be responsive to different resolution, and support python. you can treat it as a frontend framework."
     ],
     "progress_dict": {
         "0": [],
@@ -80,21 +79,17 @@
             "we could try to use dart as the backend language: dart.dev/tools/dart-compile",
             "maybe use magnet link to serve library is a good idea"
         ],
-        "16": [
-            "this is to make sure I could directly download the sky game in google play",
-            "I found a project: Android1500/AndroidFaker"
-        ],
+        "16": [],
         "17": [],
         "18": [],
-        "19": [],
-        "2": [],
-        "20": [],
-        "21": [
+        "19": [
             "I created one, but the performance is not good."
         ],
+        "2": [],
+        "20": [],
+        "21": [],
         "22": [],
         "23": [],
-        "24": [],
         "3": [
             "paddlepaddle seems to be a good tool for this job: https://github.com/PaddlePaddle/PaddleHub/tree/develop/modules#audio",
             "forget about paddle, use pytorch, they got everything you need to built an english based assistant",

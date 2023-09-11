@@ -815,3 +815,29 @@ make an open online shop by using vite and python and yrpc, it should have no ce
 
 ----------
 
+2023-08-29 13:26:09
+
+"build ubuntu touch for xiaomi 11 pro"
+
+0. I decided to use a arm linux board to create my own mobile phone, so that I could use linux as mobile system without too much struggle: Orange Pi 5 16G memory board + 10.1 inch touch screen + 512GB SD card + 20000mAh Battery + Lubuntu + Ybrowser
+
+----------
+
+2023-09-01 02:57:55
+
+"transfer my recent saying from telegram to freedom app, then do a backup on github"
+
+
+
+----------
+
+2023-09-02 01:44:03
+
+"publish a new version of freedom that supports lazy page loading when doing the search"
+
+0. the new version of flutter probabally optimised this, so there has no need to make page seperation on search
+1. I still need to publish a new version to support image compression
+2. done
+
+----------
+

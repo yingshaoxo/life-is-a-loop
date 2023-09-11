@@ -5,11 +5,11 @@ time_ = Time()
 saying = """
 不能被分心，be focus
 
-And sort tasks with new value standards: influence. The bigger, the better.
+干扰太强, cut the connection with bad people,
 
-你离成功就差一点距离，主要是干扰太强，be focus
+For example, use earplugs.
 
-(And ignore those bad_act people.
+(Sort tasks with new value standards: influence. The bigger, the better.
 
 
 
@@ -20,12 +20,6 @@ And sort tasks with new value standards: influence. The bigger, the better.
 2. 繁殖欲心理，让美女诱惑你朝着错误的方向前进
 
 3. 各种干扰，包括人声噪音，让你偏离你自己给自己设定的方向
-
-
-
-How to fix?
-Be focus on your own goal.
-And sort tasks with new value standards: influence. The bigger, the better.
     """.strip()
 
 from tkinter import Tk, Label, messagebox, font, CENTER, Button

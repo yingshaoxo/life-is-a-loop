@@ -9,7 +9,9 @@ saying = """
 
 For example, use earplugs.
 
-(Sort tasks with new value standards: influence. The bigger, the better.
+(Sort tasks with new standards: start from easy tasks.
+
+
 
 
 

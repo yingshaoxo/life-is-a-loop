@@ -841,3 +841,36 @@ make an open online shop by using vite and python and yrpc, it should have no ce
 
 ----------
 
+2023-09-18 20:12:48
+
+"add trust hosts at the left side of yingshaoxo.xyz website, add un-trust hosts at the right side of yingshaoxo.xyz website. desktop only"
+
+
+
+----------
+
+2023-09-22 15:43:40
+
+transfer my yingshaoxo.xyz service to my own server
+
+
+
+----------
+
+2023-09-22 20:37:23
+
+"once I have a never upgrade python binary file, I'll use python built-in http service to rewrite yrpc"
+
+0. I already made the new yrpc with python built-in http.server library, now I should try to build a python binary file myself.
+1. by using static compile, I could get a never upgrade python that do not rely libc. but it lacks support of a lot of modules. so it is not usable
+
+----------
+
+2023-09-22 20:37:42
+
+"upload auto_everything, yppm, freedom to gitlab"
+
+0. should also add my version of golang
+
+----------
+

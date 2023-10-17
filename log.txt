@@ -874,3 +874,12 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-10-17 16:48:21
+
+"make my own version of amd64 and aarch64 linux system"
+
+0. what really matters is the logic, sometimes you can even use fake code to do the design
+1. because cpu type can change, hardware can change over time. in the end you'll find you have to build everything by yourself from basic elements
+
+----------
+

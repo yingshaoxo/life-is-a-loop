@@ -31,7 +31,9 @@
         "\"create a tor/onion service, where people can ask question and get answer freely\"",
         "\"in yingshaoxo.xyz website, make second page at bottom by using vue and iframe. Display freedom json diary, make sure the search function is working. if it has an offline chat function, that will be better\"",
         "\"add a youtube video, says: you do not need to update your exists software or system, because it will not make you feel better, but add more restrictions to you, the update is supressing the freedom of development\"",
-        "\"add a question_and_answer web program template to yppm, update a version, then add yppm with my name into wiki\""
+        "\"add a question_and_answer web program template to yppm, update a version, then add yppm with my name into wiki\"",
+        " \"consider write a book 'how to design a new torrent protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
+        "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\""
     ],
     "progress_dict": {
         "0": [],
@@ -121,6 +123,8 @@
         "30": [
             "wiki does not allow you add a package to their website unless they think it is ok to add. you can create your own wiki by spend one month"
         ],
+        "31": [],
+        "32": [],
         "4": [],
         "5": [
             "I have selled the MacOs laptop, so we'll do it on Linux"

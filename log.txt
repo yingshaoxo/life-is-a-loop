@@ -883,3 +883,11 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-10-21 20:14:55
+
+"add auto_everything database daemon function to let it handle request by using socket in a single process, so it can handle multiprocess or multithreading database operation requests without error"
+
+0. I did the same thing by using multiprocessing.manager().dict(), it is working fine with lock system so far
+
+----------
+

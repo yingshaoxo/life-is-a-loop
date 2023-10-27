@@ -891,3 +891,11 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-10-27 13:42:38
+
+"try to refactor style_shop, so in the end, it would only have one single url than using stupid subdomain. because subdomain require you use a gateway, and it adds complexity"
+
+0. I finished this, now the style shop will only expose one port. every url will be under a single url.
+
+----------
+

@@ -121,9 +121,12 @@
             "I suddently found vosk is better than pytorch in voice to text task, and vosk only required 40MB model"
         ],
         "30": [
-            "wiki does not allow you add a package to their website unless they think it is ok to add. you can create your own wiki by spend one month"
+            "wiki does not allow you add a package to their website unless they think it is ok to add. you can create your own wiki by spend one month",
+            "I did not add question_and_answer web program yet, I have added a app_store app"
         ],
-        "31": [],
+        "31": [
+            "'how to use python to write a torrent protocol' is better"
+        ],
         "32": [],
         "4": [],
         "5": [

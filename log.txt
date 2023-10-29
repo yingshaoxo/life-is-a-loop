@@ -899,3 +899,12 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-10-29 20:49:35
+
+"add LocalShow to arch system"
+
+0. arch disabled the registering for now, so forget about it
+1. when I look at the snapcraft store, I think they are trying to do what google play store or apple store did, they cut your permission one by one. in the end, no coding freedom but only graphic and audio access. it is similar to hardware driver do not open source.
+
+----------
+

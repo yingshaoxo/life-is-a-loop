@@ -908,3 +908,29 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-10-29 20:52:52
+
+"create a tor/onion service, where people can ask question and get answer freely"
+
+0. I found the tor service is not stable for developer, they do not provide auto bridge when you serve a website. Which means, in china, you can't serve a tor website directly without VPN. And even if you have used a vpn, if you use v2ray, you'll have problems to connect to tor network.
+1. drop the tor network plan. I think I need to create my own platform
+
+----------
+
+2023-10-29 20:56:17
+
+"try to create my own auto-complete vim plugin by using NerdTree as the base"
+
+0. I created one, but the performance is not good.
+1. normally, YouCompleteMe will make the job done. I don't have to create a new one
+
+----------
+
+2023-10-29 20:59:47
+
+"Make and run an online novel writing and subscribe platform."
+
+0. you could also write novel in a question and answer website. You just have to make sure for each post you publish, you link the next chapter url at the bottom
+
+----------
+

@@ -3,19 +3,22 @@
 from signal import signal, SIGINT
 from sys import exit
 import os
-from auto_everything.disk import Store
+from auto_everything.disk import Store, Disk
 from auto_everything.python import Python
 from auto_everything.io import IO
 from pprint import pprint
 from datetime import datetime
 import json
 
-
 py = Python()
+disk = Disk()
 store = Store("todo_list_app")
 io_ = IO()
 # store.reset()
 # exit()
+
+
+current_script_folder = disk.get_directory_path(os.path.realpath(__file__))
 
 todo_dict = {
     "index": None,
@@ -25,7 +28,7 @@ todo_dict = {
 
 if store.has_key("todo_dict"):
     todo_dict = store.get("todo_dict", todo_dict)
-    io_.write("todo.txt", content=json.dumps(todo_dict, indent=4, sort_keys=True))
+    io_.write(disk.join_paths(current_script_folder, "todo.txt"), content=json.dumps(todo_dict, indent=4, sort_keys=True))
 
 def save():
     store.set("todo_dict", todo_dict)
@@ -66,7 +69,7 @@ def remove(index):
             str(i-1): progress
         })
 
-    with open('log.txt', 'a') as f:
+    with open(disk.join_paths(current_script_folder, 'log.txt'), 'a') as f:
         f.write(one_part_of_the_log)
 
     save()

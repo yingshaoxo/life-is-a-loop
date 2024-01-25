@@ -1,5 +1,5 @@
 {
-    "index": 31,
+    "index": 30,
     "list": [
         "\"create a wifi router that could cover 500 meter circle\"",
         "try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a localhost website(make it configureable, for example, show it when doing the connection and the following 1 minute",
@@ -18,22 +18,20 @@
         "\"continue weloveparty dev\"",
         "\"create a new programming language that fits every needs I have according the gitbook description\"",
         "\"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you.\"",
-        "\"Make and run an online novel writing and subscribe platform.\"",
-        "\"try to create my own auto-complete vim plugin by using NerdTree as the base\"",
         "\"add amd super resolution to auto_everything video module\"",
         "\"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something.\"",
         "create my own version of broswer, it should be responsive to different resolution, and support python. you can treat it as a frontend framework.",
         "create_me_own_version_of_linux_system",
-        "\"make a never upgrade, relative path import package system bassed, offline based, dart based compiler\"",
         "\"buy and setup a 4G base station for mobile signal and wifi, so that people around me in 1500 meter can access my website, and can form a LAN ecosystem\"",
         "\"once I got 10000 RMB, I'll seperate it to 5000 and 5000. One for server fee. Another is to buy many 512GB usb storage. So that I could put animation and TV shows and movies and books and music into them, then send it to all of my friends. So that I could save some storage in my own disk.\"",
         "\"sell my knowledge by chat with others, 5 dollars per month\"",
-        "\"create a tor/onion service, where people can ask question and get answer freely\"",
         "\"in yingshaoxo.xyz website, make second page at bottom by using vue and iframe. Display freedom json diary, make sure the search function is working. if it has an offline chat function, that will be better\"",
         "\"add a youtube video, says: you do not need to update your exists software or system, because it will not make you feel better, but add more restrictions to you, the update is supressing the freedom of development\"",
-        "\"add a question_and_answer web program template to yppm, update a version, then add yppm with my name into wiki\"",
         " \"consider write a book 'how to design a new torrent protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
-        "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\""
+        "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
+        "\"build android lineage16 for xiaomi11 pro, because new version sucks. for example, can't disable network for app, can't connect LAN wifi continuesly that does not have network.\"",
+        "\"add magic_magnet_service_url function to yppm\"",
+        "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\""
     ],
     "progress_dict": {
         "0": [],
@@ -42,7 +40,9 @@
         ],
         "10": [
             "you could try mlkit ocr flutter package first",
-            "another goal: \"Read this math formula for me\". Convert math formula into human understandable sentence."
+            "another goal: \"Read this math formula for me\". Convert math formula into human understandable sentence.",
+            "as for the writing part, if you can use simple english and fake python code to represente the math logic and operations, then you do not need math expressions",
+            "maybe you could use recursive regex text transformer to convert math latex to natural english sentence"
         ],
         "11": [
             "join Google team might be a good idea",
@@ -90,28 +90,26 @@
         ],
         "16": [],
         "17": [],
-        "18": [
-            "I created one, but the performance is not good."
-        ],
-        "19": [],
-        "2": [],
-        "20": [],
-        "21": [
+        "18": [],
+        "19": [
             "so far, I have used python to parse static html code and do a display",
-            "the next step is to create a flutter client, so that I could add click,touch,keyboard system to it, then I could add python script system"
+            "the next step is to create a flutter client, so that I could add click,touch,keyboard system to it, then I could add python script system",
+            "I could use dart to do the kind of job, but the dart compiler requires libc to work. it is not statically compiled. it won't work in ubuntu8. So forget about it for now"
         ],
-        "22": [
+        "2": [],
+        "20": [
             "it should only have bash, ssh, passwd, wget, chmod, mv, cp, rm, mkdir, pwd, ls, vim, and anything else will depend on third party binary files in /bin folder"
         ],
-        "23": [
-            "I found the dart is not doing static compile. so the generated binary is not runable in old linux system",
-            "nuitka can also do static compile when you use nuitka --static-libpython=yes --standalone --follow-imports {entry_point_python_script} -o {name}",
-            "libc is a big problem, you can only use musl to do the static compile for now",
-            "I need to find a way to implement python built-in type with pure c99 standard, otherwise, it will not work"
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [
+            "I made a better diary search app, which is a chat app, a ask_ai app. it is in yppm community, I shall add it to my official website"
         ],
-        "24": [],
         "25": [],
-        "26": [],
+        "26": [
+            "'how to use python to write a torrent protocol' is better"
+        ],
         "27": [],
         "28": [],
         "29": [],
@@ -120,14 +118,7 @@
             "forget about paddle, use pytorch, they got everything you need to built an english based assistant",
             "I suddently found vosk is better than pytorch in voice to text task, and vosk only required 40MB model"
         ],
-        "30": [
-            "wiki does not allow you add a package to their website unless they think it is ok to add. you can create your own wiki by spend one month",
-            "I did not add question_and_answer web program yet, I have added a app_store app"
-        ],
-        "31": [
-            "'how to use python to write a torrent protocol' is better"
-        ],
-        "32": [],
+        "30": [],
         "4": [],
         "5": [
             "I have selled the MacOs laptop, so we'll do it on Linux"

@@ -934,3 +934,46 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2023-11-19 18:29:24
+
+"make a never upgrade, relative path import package system bassed, offline based, dart based compiler"
+
+0. I found the dart is not doing static compile. so the generated binary is not runable in old linux system
+1. nuitka can also do static compile when you use nuitka --static-libpython=yes --standalone --follow-imports {entry_point_python_script} -o {name}
+2. libc is a big problem, you can only use musl to do the static compile for now
+3. I need to find a way to implement python built-in type with pure c99 standard, otherwise, it will not work
+4. I indeed implemented the python built-in type with c99 in magic magnet repo, but it does not support chinese yet
+5. drop dart plan
+
+----------
+
+2023-12-30 08:18:45
+
+"add a question_and_answer web program template to yppm, update a version, then add yppm with my name into wiki"
+
+0. wiki does not allow you add a package to their website unless they think it is ok to add. you can create your own wiki by spend one month
+1. I did not add question_and_answer web program yet, I have added a app_store app
+2. have added question and answer community into yppm, but I did not implement the console user interface yet
+
+----------
+
+2024-01-25 02:09:21
+
+"change https to http in yingshaoxo.xyz website to support old device"
+
+----------
+
+2024-01-25 02:15:45
+
+"install all kinds of driver in xp system for my old computer. lubuntu does not need to install any driver, it simply works"
+
+----------
+2024-01-25 02:21:34
+
+"in yingshaoxo.xyz website, make second page at bottom by using vue and iframe. Display freedom json diary, make sure the search function is working. if it has an offline chat function, that will be better"
+
+0. I made a better diary search app, which is a chat app, a ask_ai app. it is in yppm community, I shall add it to my official website
+1. I have added it into my official website
+
+----------
+

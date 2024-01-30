@@ -977,3 +977,27 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2024-01-30 00:26:39
+
+"let auto_everything gui text component clickable"
+
+
+
+----------
+
+2024-01-30 10:31:55
+
+"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something."
+
+0. someone already made this tech, I think they use it to do bad thing, for example, by making noise to let people kill themselves. I hope you will not meet those people. I'll stop this project here.
+
+----------
+
+2024-01-30 10:33:04
+
+"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you."
+
+0. some people made this tech, and they are using it to do bad things. I think I should stop the development of this.
+
+----------
+

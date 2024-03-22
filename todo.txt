@@ -30,7 +30,16 @@
         "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
         "\"build android lineage16 for xiaomi11 pro, because new version sucks. for example, can't disable network for app, can't connect LAN wifi continuesly that does not have network.\"",
         "\"add magic_magnet_service_url function to yppm\"",
-        "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\""
+        "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\"",
+        "\"make my own version of chinese_chess, for example, the horse can eat enemy around it, the cannon can eat enemy around it\"",
+        "\"make a new github never_upgrade_go project, with go1.4boot and go1.17 statically compiled zip file. multiple small zip file, with how to uncompress readme file\"",
+        "\"add port support for LocalShow. make sure ie11 get supported. make sure the scroll function work with ie11\"",
+        "\"compile android 4.4 and install firfox laungher to it\"",
+        "\"add arch detection in all one key install bash script, make sure user has amd64 arch system before do anything\"",
+        "\"test if use injector to give chick porn sugar water or yolk will save chick or not\"",
+        "\"make a air phone: two devices can talk to each other by using radio. try to use NPN unit and built speaker and microphone from basic elements\"",
+        "\"synchronize yingshaoxo data as a folder: big core and small core. small core folder only has yingshaoxo data. and small core has levels, from level1 to levelN, level1 has most valuable data\"",
+        "\"To increase the stability of YPPM and auto_everything package, I need to let user install static python for their architecture. So the build_static_python repository will be seperate into static_python_3.10_amd64 and static_python_3.10_arm and so on.\""
     ],
     "progress_dict": {
         "0": [],
@@ -115,6 +124,15 @@
             "forget about paddle, use pytorch, they got everything you need to built an english based assistant",
             "I suddently found vosk is better than pytorch in voice to text task, and vosk only required 40MB model"
         ],
+        "30": [],
+        "31": [],
+        "32": [],
+        "33": [],
+        "34": [],
+        "35": [],
+        "36": [],
+        "37": [],
+        "38": [],
         "4": [],
         "5": [
             "I have selled the MacOs laptop, so we'll do it on Linux"

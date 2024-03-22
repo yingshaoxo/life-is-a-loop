@@ -1001,3 +1001,74 @@ transfer my yingshaoxo.xyz service to my own server
 
 ----------
 
+2024-03-22 11:52:41
+
+"create a wifi router that could cover 500 meter circle"
+
+0. You can do it with 2G wireless tech, but not wifi. because you need to mofidify both wifi sender and receiver client to make it work. This tech will help people only when you have to communicate with others. But what if there only has one person that really alive, if it is only you, if you don't have to communicate with others, why you need to master that kind of tech? What if the above system do not allow people to unit togather, what if they do not what to see others to fight against them, you will never find a way to implement this tech
+
+----------
+
+2024-03-22 11:55:52
+
+try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a localhost website(make it configureable, for example, show it when doing the connection and the following 1 minute
+
+0. http traffic redirection can be done in v2ray. but wifi login need to be done in vpnhotspot. i wrote a post about it: https://yingshaoxo.blogspot.com/2023/05/how-to-use-v2ray-to-set-up-whitelist.html
+1. you could make it work if you can control user's device. for example, by send a POST request to 192.168.1.1, you redirect user to a local webpage. It only work when you made that network client hardware. If not, the simplest way to do it is to set up a fake DNS in router level, so when you visit a domain, it will lead you to a localhost website.
+
+----------
+
+2024-03-22 11:58:44
+
+"create an AI asistant by using techs like speech-recognition, text-to-speech, chat-gpt"
+
+0. paddlepaddle seems to be a good tool for this job: https://github.com/PaddlePaddle/PaddleHub/tree/develop/modules#audio
+1. forget about paddle, use pytorch, they got everything you need to built an english based assistant
+2. I suddently found vosk is better than pytorch in voice to text task, and vosk only required 40MB model
+3. you indeed need a database based text search engine to help you find knowledge in a efficient way. but you don't need to use voice. even if you really need voice, you can record your own voice. the recognition corrct ratio would be 100% if you only record your own voice
+
+----------
+
+2024-03-22 12:02:29
+
+"see if we can use camera to capture our eyes movements signal, then use it to move the mouse. the final goal is to use the camera to move the first person game view"
+
+0. it is definitely possible, you can see it here: https://app.gazerecorder.com/Study/Test/?Watch=1&StudyID=study_8eabbbf1-87d6-4977-a124-de646137c571&Live=1
+1. it is not an accurate way to capture signals beacuse you don't always have a good camera and envirnoment light. you'd better use brain signal capture tech to do that kind of thing. Or if you want, you can use your hand to move the mouse or use keyboard to move the mouse
+
+----------
+
+2024-03-22 12:05:44
+
+"record a youtube video about how to set up router level vpn. in that process, I shall also set up the luci-app-v2ray."
+
+0. I did some modification for luci-app-v2ray repo. I think it would be better to wait for the merge request done before I go on. Because that would make the record process smooth, and it also simplifies the installation process for our users.
+1. waiting for macos m1 machine support virtualbox
+2. in the end, you would find all VPN is relay on if you could communicate with a remote machine or not. If they blocks all the way you can think of, the VPN tech would become a useless skill. Then you would find LocalAreaNetwork is  a good way to go on. Try to set up a global router level fake DNS first, use local service as much as possible. Then you would find you don't need to use VPN anymore.
+
+----------
+
+2024-03-22 12:09:21
+
+"build android lineage16 for xiaomi11 pro, because new version sucks. for example, can't disable network for app, can't connect LAN wifi continuesly that does not have network."
+
+0. maybe drop the android system is a better way. try to build a mobile hardware by yourself, so that you could have a fine tuning on what you have built
+
+----------
+
+2024-03-22 12:12:11
+
+"add port support for LocalShow. make sure ie11 get supported. make sure the scroll function work with ie11"
+
+0. localshow could help you serve a folder for others, but if you want to serve another folder for your own, you could use Python built_in http server to do it
+
+----------
+
+2024-03-22 12:13:52
+
+"compile android 4.4 and install firfox laungher to it"
+
+0. first, I can't found a android 4.4 source code that could get compiled in new system, they have too many broken dependencies. second, I can't find a firfox laungher apk on my avaliable internet.
+
+----------
+

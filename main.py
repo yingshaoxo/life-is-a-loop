@@ -1,3 +1,4 @@
+#!/usr/bin/env /usr/bin/python3
 #!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python3
 #!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python
 from signal import signal, SIGINT

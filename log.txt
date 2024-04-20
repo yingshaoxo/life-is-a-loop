@@ -1072,3 +1072,100 @@ try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a
 
 ----------
 
+2024-03-23 08:36:40
+
+"To increase the stability of YPPM and auto_everything package, I need to let user install static python for their architecture. So the build_static_python repository will be seperate into static_python_3.10_amd64 and static_python_3.10_arm and so on."
+
+0. no need for doing that. normally a project won't live longer than 10 years if it is not stable. but an archtecture can live 10 years later. if a new archtecture takes the market 20 years later, we make a new repository for the new binary building of python
+
+----------
+
+2024-03-23 08:37:00
+
+"add arch detection in all one key install bash script, make sure user has amd64 arch system before do anything"
+
+0. it has been done
+
+----------
+
+2024-03-23 15:34:51
+
+"test if use injector to give chick porn sugar water or yolk will save chick or not"
+
+0. by doing so with cat, it turns out cat can't get food from porn. we should use a long pipe to directly give food from mouth to stomach. the pipe should be long enough, otherwise will give food to a wrong place, for example, lung.
+
+----------
+
+2024-03-28 12:39:37
+
+"make a new github never_upgrade_go project, with go1.4boot and go1.17 statically compiled zip file. multiple small zip file, with how to uncompress readme file"
+
+0. done
+
+----------
+
+2024-03-31 07:41:14
+
+"add run_command() and run() to tinypython"
+
+0. I added 'run_command, run, exists, open, input, sleep' in the end
+
+----------
+
+2024-04-03 09:08:07
+
+"add link based python package installation method to YPPM, so that it could install current folder python package to /usr/bin/static_python/lib/xx_package. so that package will get updated whenever user change code"
+
+0. done. the function name is 'install_as_global_package'
+
+----------
+
+2024-04-07 10:16:39
+
+"remove auto_everything terminal types to adopt python2.7"
+
+
+
+----------
+
+2024-04-11 07:36:20
+
+"test if replace a image color to 7 colors will make an image an animation graph or not"
+
+0. by reduce similar color in an image could derease the size of an image. so that you can compress a image in a way human don't understand
+
+----------
+
+2024-04-12 05:57:56
+
+"compress freedom diary image or split the data.json into multiple files"
+
+0. did a compression by modifying freedom app
+
+----------
+
+2024-04-18 08:04:08
+
+"change freedom app icon direction to left; change freedom app import method, add another method, read data directly from download folder"
+
+0. maybe ask user to save data to Android/media or Android/data is a good idea
+1. now the app can read from Android/id/files/database.json file
+
+----------
+
+2024-04-20 14:53:56
+
+"try to understand what socket proxy does, and fix a bug between android and linux server. linux server connect linux server works ok, but android connect linux server has errors. write the code by using python"
+
+0. I think android system and device is not a stable thing, either the phone break or the system break will make you lose your data. The phone maker always want you to buy a new one. So why use that much time in your phone since it is not stable?
+
+----------
+
+2024-04-20 14:58:56
+
+"test if hqx3 algorithm works for microcontroller drawing applications"
+
+0. it will not work on drawing grpah directly. You have to use other smooth method, for example, equally distribute the arch line
+
+----------
+

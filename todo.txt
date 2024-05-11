@@ -1,6 +1,12 @@
 {
-    "index": 36,
+    "index": 32,
     "list": [
+        "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\"",
+        "\"make a new hero programming language backend engine, it should based on bash. we just need to improve the code structure and built_in function name. we want the try_and_cache functionality in bash, so that even if the previous line of code is wrong, the software will still run the next command\"",
+        "\"Study how an induction_cooker controls high-power currents through a PWM waveform. In particular, what kind of single-chip microcomputer it uses, how many voltage the output PWM waveform is, and what high-frequency_switching_component they use.",
+        "\"think a way to use 5 points(x,y) to detect if the user want to draw a circle or line, the points location is not perfect. by the way, if the user want to draw a line, the user may try to shoot a person by using 5 bullet, you may help him to shoot the 6 point by using target speed\"",
+        "\"make a air phone: two devices can talk to each other by using radio. try to use NPN unit and built speaker and microphone from basic elements\"",
+        "\"add search function to todo program, make sure it could use 'keyword keyword2' search string that was split by space\"",
         "\"talk with my friends by watching video, listen music, and so on\"",
         "\"try a code grammer error auto fix AI: take right code, add random chars until error happen, get wrong code; input wrong code, predict right code\"",
         "\"see if it is possible to only use 1 picture or 10 seconds video to copy one girl's face into a sex video in MacOS m1\"",
@@ -13,7 +19,6 @@
         "\"continue weloveparty dev\"",
         "\"create a new programming language that fits every needs I have according the gitbook description\"",
         "\"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you.\"",
-        "\"add amd super resolution to auto_everything video module\"",
         "\"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something.\"",
         "create my own version of broswer, it should be responsive to different resolution, and support python. you can treat it as a frontend framework.",
         "create_me_own_version_of_linux_system",
@@ -24,95 +29,34 @@
         " \"consider write a book 'how to design a new torrent protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
         "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
         "\"add magic_magnet_service_url function to yppm\"",
-        "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\"",
         "\"make my own version of chinese_chess, for example, the horse can eat enemy around it, the cannon can eat enemy around it\"",
-        "\"make a air phone: two devices can talk to each other by using radio. try to use NPN unit and built speaker and microphone from basic elements\"",
         "\"synchronize yingshaoxo data as a folder: big core and small core. small core folder only has yingshaoxo data. and small core has levels, from level1 to levelN, level1 has most valuable data\"",
-        "\"test if hqx3 algorithm works for microcontroller drawing applications\"",
-        "\"make a new hero programming language backend engine, it should based on bash. we just need to improve the code structure and built_in function name. we want the try_and_cache functionality in bash, so that even if the previous line of code is wrong, the software will still run the next command\"",
         "\"try to think about how to let a programming language ignore text under a class or function, just treat it like a class and function with name. we parse that class or function when needed. so that we could put python3 and python2 function at the same codebase. so that even if a function contains wrong code in grammer level, it won't bring error if you do not use it\"",
         "\"add javascript yrpc client code generator\"",
-        "\"think a way to use 5 points(x,y) to detect if the user want to draw a circle or line, the points location is not perfect. by the way, if the user want to draw a line, the user may try to shoot a person by using 5 bullet, you may help him to shoot the 6 point by using target speed\"",
         "\"remove every backend project that uses node third party packages, they might has backdoor that could use your VPS as their VPS to act like a general web client for hackers\"",
         "\"make a c header file that do global replacement for all stdlib function and variable name, we use #define fopen standard_lib_file_open\"",
-        "\"try to understand what socket proxy does, and fix a bug between android and linux server. linux server connect linux server works ok, but android connect linux server has errors. write the code by using python\"",
-        "\"add search function to todo program, make sure it could use 'keyword keyword2' search string that was split by space\"",
         "\"make a VPN that transfer socket data by using pure_text_post_method\"",
-        "\"Study how an induction_cooker controls high-power currents through a PWM waveform. In particular, what kind of single-chip microcomputer it uses, how many voltage the output PWM waveform is, and what high-frequency_switching_component they use."
+        "\"create a local network based clipboard text sharing website to help share text over different LAN devices\"",
+        "\"learn how to add more points between two point to draw a direct line or arc line by using bezier_curve or line_equation\""
     ],
     "progress_dict": {
         "0": [],
         "1": [],
-        "10": [
-            "it only have to support 2 platform: amd64 and arm64",
-            "For better fit users expectation, we'd better convert this new programming language to Python,Typescript,C++,Golang,C#,dart,kotlin first, then convert it to binary file",
-            "I have made a simple demo called hero, where I use python to convert the code into cpp code. (by the way, the cpp compilling and built-in functions are hard to use, like a shit)",
-            "Use golang as the base language seems to be better according to my experiment",
-            "we could try to use dart as the backend language: dart.dev/tools/dart-compile",
-            "maybe use magnet link to serve library is a good idea"
-        ],
-        "11": [],
-        "12": [],
-        "13": [],
-        "14": [
-            "so far, I have used python to parse static html code and do a display",
-            "the next step is to create a flutter client, so that I could add click,touch,keyboard system to it, then I could add python script system",
-            "I could use dart to do the kind of job, but the dart compiler requires libc to work. it is not statically compiled. it won't work in ubuntu8. So forget about it for now"
-        ],
-        "15": [
-            "it should only have bash, ssh, passwd, wget, chmod, mv, cp, rm, mkdir, pwd, ls, vim, and anything else will depend on third party binary files in /bin folder"
-        ],
-        "16": [],
-        "17": [],
-        "18": [],
-        "19": [],
-        "2": [
-            "I have selled the MacOs laptop, so we'll do it on Linux"
-        ],
-        "20": [
-            "'how to use python to write a torrent protocol' is better"
-        ],
-        "21": [],
-        "22": [],
-        "23": [],
-        "24": [],
-        "25": [],
-        "26": [
-            "so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data"
-        ],
-        "27": [],
-        "28": [],
-        "29": [],
-        "3": [
-            "I think it can be done by talking to people, of course, in English"
-        ],
-        "30": [],
-        "31": [],
-        "32": [
-            "it is even wrose if you use npm in root VPS, because the npm will always use new version of a package or sub_package, how can you make sure your 3000 dependencies will not have a virus that could use your VPS root permissoin to do bad things?",
-            "it is the same for other package manager, for example, python pip.",
-            "or golang package, java package, rust package, flutter package. in chinese, people usally called those machine that has those software running 'rou ji'"
-        ],
-        "33": [],
-        "34": [],
-        "35": [],
-        "36": [],
-        "37": [],
-        "4": [],
-        "5": [
+        "10": [],
+        "11": [
             "you could try mlkit ocr flutter package first",
             "another goal: \"Read this math formula for me\". Convert math formula into human understandable sentence.",
             "as for the writing part, if you can use simple english and fake python code to represente the math logic and operations, then you do not need math expressions",
             "maybe you could use recursive regex text transformer to convert math latex to natural english sentence"
         ],
-        "6": [
+        "12": [
             "join Google team might be a good idea",
             "join a travel team would also be an idea",
             "grow up and gain the independence and freedom first is essential for this case, because that will allow us to go whatever place we wanted to go",
             "here is the plan: 1. go to shenzhen. 2. live alone. 3. find a coding job. 4. work for months. 5. don't waste my money. 6. go travel in advanced country (better with a girl). 7. run away and settle down. 8. never go back to china.",
             "we are in the 3. we need to find a job to gain more money to be able to buy a VISA:(Visitors International Stay Admission) or passport. then go travel to advanced county. (but if we can directly found a US based job, we could directly go to there"
         ],
-        "7": [
+        "13": [
             "I mean coding job",
             "I just submitted a resume to Google",
             "I said a lot of hi to Chinese HR",
@@ -136,10 +80,77 @@
             "I've submitted a lot of CV/resume to a lot of UK, US company, including Netflix",
             "I've submitted a lot of resume to some open countrys"
         ],
-        "8": [],
-        "9": [
+        "14": [],
+        "15": [
             "make a backend database management system by using react or vue",
             "in the end, I use flutter to make the management user interface"
+        ],
+        "16": [
+            "it only have to support 2 platform: amd64 and arm64",
+            "For better fit users expectation, we'd better convert this new programming language to Python,Typescript,C++,Golang,C#,dart,kotlin first, then convert it to binary file",
+            "I have made a simple demo called hero, where I use python to convert the code into cpp code. (by the way, the cpp compilling and built-in functions are hard to use, like a shit)",
+            "Use golang as the base language seems to be better according to my experiment",
+            "we could try to use dart as the backend language: dart.dev/tools/dart-compile",
+            "maybe use magnet link to serve library is a good idea"
+        ],
+        "17": [],
+        "18": [],
+        "19": [
+            "so far, I have used python to parse static html code and do a display",
+            "the next step is to create a flutter client, so that I could add click,touch,keyboard system to it, then I could add python script system",
+            "I could use dart to do the kind of job, but the dart compiler requires libc to work. it is not statically compiled. it won't work in ubuntu8. So forget about it for now"
+        ],
+        "2": [],
+        "20": [
+            "it should only have bash, ssh, passwd, wget, chmod, mv, cp, rm, mkdir, pwd, ls, vim, and anything else will depend on third party binary files in /bin folder",
+            "If I want to let the system stable, I have to create my own computer"
+        ],
+        "21": [],
+        "22": [],
+        "23": [],
+        "24": [],
+        "25": [
+            "'how to use python to write a torrent protocol' is better"
+        ],
+        "26": [],
+        "27": [],
+        "28": [
+            "no, instead of change node rules, I think we'd better add some super power to enemy, let them be transparent each two round, let them could run twice while you run once."
+        ],
+        "29": [
+            "so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data"
+        ],
+        "3": [],
+        "30": [
+            "I'm considering write minimum_python by myself, which only requires part of stdlib functions, for example, string handling stuff, file open and write"
+        ],
+        "31": [
+            "maybe you can generate your own code first, then use pure javascript to convert your code into functions, so that other javascript code can call those function directly",
+            "it has to adopt old IE or any other old broswer"
+        ],
+        "32": [
+            "it is even wrose if you use npm in root VPS, because the npm will always use new version of a package or sub_package, how can you make sure your 3000 dependencies will not have a virus that could use your VPS root permissoin to do bad things?",
+            "it is the same for other package manager, for example, python pip.",
+            "or golang package, java package, rust package, flutter package. in chinese, people usally called those machine that has those software running 'rou ji'"
+        ],
+        "33": [],
+        "34": [
+            "I think if you do not know how to use others socket proxy, then you'd better just create a broswer, and let the remote machine to help you get HTTP GET or POST response",
+            "maybe when you create a http proxy client, you can make your request looks like a api that checks english_to_chinese dict or chinese_to_pinyin dict"
+        ],
+        "35": [],
+        "36": [
+            "I know how to draw a direct line. You have to know the line slop first, then for each x input, you can get y output by using a line function"
+        ],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [
+            "I have selled the MacOs laptop, so we'll do it on Linux"
+        ],
+        "9": [
+            "I think it can be done by talking to people, of course, in English"
         ]
     }
 }

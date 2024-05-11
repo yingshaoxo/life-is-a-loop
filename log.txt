@@ -1169,3 +1169,38 @@ try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a
 
 ----------
 
+2024-05-10 08:03:11
+
+"make a simple shell program that search all python files and convert them into function name+arguments+documentation, then when user paste a line of function with partial arguments, you return the full version of that function, so the user would know what code to write next"
+
+0. I made a simple version in auto_everything Tools shell, it not perfect for now
+1. I think now it is perfect, it can search python function definations for you
+
+----------
+
+2024-05-10 09:44:31
+
+"design a method or software that could help merge two disk folder and files in a human less interactive way"
+
+0. it is been done in auto_everything disk example
+
+----------
+
+2024-05-10 09:54:01
+
+"add amd super resolution to auto_everything video module"
+
+0. "I created a HD image algorithem in image module with pure python, it can be used in video, but I don't want to include it in video module for now. the video module need to get refactored
+
+----------
+
+2024-05-11 04:05:53
+
+"add javascript yrpc client code generator"
+
+0. maybe you can generate your own code first, then use pure javascript to convert your code into functions, so that other javascript code can call those function directly
+1. it has to adopt old IE or any other old broswer
+2. I can't directly let it support IE, you have to use polyfill in npm package. the whole project is done in auto_everything develop module
+
+----------
+

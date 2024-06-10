@@ -1,5 +1,5 @@
 {
-    "index": 32,
+    "index": 19,
     "list": [
         "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\"",
         "\"make a new hero programming language backend engine, it should based on bash. we just need to improve the code structure and built_in function name. we want the try_and_cache functionality in bash, so that even if the previous line of code is wrong, the software will still run the next command\"",
@@ -19,7 +19,6 @@
         "\"continue weloveparty dev\"",
         "\"create a new programming language that fits every needs I have according the gitbook description\"",
         "\"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you.\"",
-        "\"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something.\"",
         "create my own version of broswer, it should be responsive to different resolution, and support python. you can treat it as a frontend framework.",
         "create_me_own_version_of_linux_system",
         "\"buy and setup a 4G base station for mobile signal and wifi, so that people around me in 1500 meter can access my website, and can form a LAN ecosystem\"",
@@ -32,16 +31,29 @@
         "\"make my own version of chinese_chess, for example, the horse can eat enemy around it, the cannon can eat enemy around it\"",
         "\"synchronize yingshaoxo data as a folder: big core and small core. small core folder only has yingshaoxo data. and small core has levels, from level1 to levelN, level1 has most valuable data\"",
         "\"try to think about how to let a programming language ignore text under a class or function, just treat it like a class and function with name. we parse that class or function when needed. so that we could put python3 and python2 function at the same codebase. so that even if a function contains wrong code in grammer level, it won't bring error if you do not use it\"",
-        "\"add javascript yrpc client code generator\"",
         "\"remove every backend project that uses node third party packages, they might has backdoor that could use your VPS as their VPS to act like a general web client for hackers\"",
         "\"make a c header file that do global replacement for all stdlib function and variable name, we use #define fopen standard_lib_file_open\"",
         "\"make a VPN that transfer socket data by using pure_text_post_method\"",
         "\"create a local network based clipboard text sharing website to help share text over different LAN devices\"",
-        "\"learn how to add more points between two point to draw a direct line or arc line by using bezier_curve or line_equation\""
+        "\"learn how to add more points between two point to draw a direct line or arc line by using bezier_curve or line_equation\"",
+        "\"learn how to create a real hash table for dict data type\"",
+        "\"replace freedom apk base64 into my own image format for stability, or save bytes data directly",
+        "\"split c99 statndard from gcc, let gcc only handle c99 code, so gcc can be smaller than 5MB\"",
+        "\"add a small feature to auto_everything code_helper, if the search keywords repeated for once, the result go next to get another answer\"",
+        "\"try to create a computing hardware company\"",
+        "\"make sure auto_everything disk compress function works for a single file\"",
+        "\"a new business idea: public message board for everyone, seperated by /username after url, may replace email and phone. anyone can leave a message, no account need. only delete repeated message and obvious AD\"",
+        "\"test if put vegetable into tree will let the vegetable continue to grow or not, if it works, eat that vegetable\"",
+        "\"let auto_everything terminal run_command function can work on python3.2\"",
+        "\"create a text compression function in auto_everything by using space splited token as index\""
     ],
     "progress_dict": {
         "0": [],
-        "1": [],
+        "1": [
+            "why don't you make your own version of python?",
+            "with musl-gcc statically compile, we could have a binary file that could get running in ubuntu8",
+            "based on tiny_python, we just have to implement wide_character for chineses, garbage memory auto control, real hash table for dict data type for speed"
+        ],
         "10": [],
         "11": [
             "you could try mlkit ocr flutter package first",
@@ -94,55 +106,66 @@
             "maybe use magnet link to serve library is a good idea"
         ],
         "17": [],
-        "18": [],
-        "19": [
+        "18": [
             "so far, I have used python to parse static html code and do a display",
             "the next step is to create a flutter client, so that I could add click,touch,keyboard system to it, then I could add python script system",
             "I could use dart to do the kind of job, but the dart compiler requires libc to work. it is not statically compiled. it won't work in ubuntu8. So forget about it for now"
         ],
-        "2": [],
-        "20": [
+        "19": [
             "it should only have bash, ssh, passwd, wget, chmod, mv, cp, rm, mkdir, pwd, ls, vim, and anything else will depend on third party binary files in /bin folder",
             "If I want to let the system stable, I have to create my own computer"
         ],
+        "2": [],
+        "20": [],
         "21": [],
         "22": [],
         "23": [],
-        "24": [],
-        "25": [
+        "24": [
             "'how to use python to write a torrent protocol' is better"
         ],
+        "25": [],
         "26": [],
-        "27": [],
+        "27": [
+            "no, instead of change node rules, I think we'd better add some super power to enemy, let them be transparent each two round, let them could run twice while you run once.",
+            "I already made a terminal based pure text chinese chess framework, I just have to add more rules for each type of chess point, then it would be done"
+        ],
         "28": [
-            "no, instead of change node rules, I think we'd better add some super power to enemy, let them be transparent each two round, let them could run twice while you run once."
+            "so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data"
         ],
         "29": [
-            "so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data"
+            "I'm considering write minimum_python by myself, which only requires part of stdlib functions, for example, string handling stuff, file open and write"
         ],
         "3": [],
         "30": [
-            "I'm considering write minimum_python by myself, which only requires part of stdlib functions, for example, string handling stuff, file open and write"
-        ],
-        "31": [
-            "maybe you can generate your own code first, then use pure javascript to convert your code into functions, so that other javascript code can call those function directly",
-            "it has to adopt old IE or any other old broswer"
-        ],
-        "32": [
             "it is even wrose if you use npm in root VPS, because the npm will always use new version of a package or sub_package, how can you make sure your 3000 dependencies will not have a virus that could use your VPS root permissoin to do bad things?",
             "it is the same for other package manager, for example, python pip.",
             "or golang package, java package, rust package, flutter package. in chinese, people usally called those machine that has those software running 'rou ji'"
         ],
-        "33": [],
-        "34": [
+        "31": [],
+        "32": [
             "I think if you do not know how to use others socket proxy, then you'd better just create a broswer, and let the remote machine to help you get HTTP GET or POST response",
             "maybe when you create a http proxy client, you can make your request looks like a api that checks english_to_chinese dict or chinese_to_pinyin dict"
         ],
-        "35": [],
-        "36": [
+        "33": [],
+        "34": [
             "I know how to draw a direct line. You have to know the line slop first, then for each x input, you can get y output by using a line function"
         ],
+        "35": [],
+        "36": [
+            "I'm going to check if raw_bytes is smaller than base64 or not",
+            "rewrite flutter image compression algorithm, 1. read as 2d rgba pixel list, 2. downscale resolution to 720pixels, 3. reduce pixels type, 4. save as png or jpg or bmp"
+        ],
+        "37": [
+            "because I think c++ takes too much space in gcc"
+        ],
+        "38": [],
+        "39": [],
         "4": [],
+        "40": [],
+        "41": [],
+        "42": [],
+        "43": [],
+        "44": [],
         "5": [],
         "6": [],
         "7": [],

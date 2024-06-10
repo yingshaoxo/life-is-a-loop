@@ -1204,3 +1204,54 @@ try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a
 
 ----------
 
+2024-05-12 21:22:52
+
+"fix tiger bbs bug, only mobile can open login page"
+
+0. solved it, it is because i did not add / after q.php url
+1. new bug is the webpage did not show new line in content page; and it strips indents before head line, it should only remove new line before and after text
+2. I solved it by using '<pre>' . htmlspecialchars($data['value']) . '</pre>'
+
+----------
+
+2024-05-27 21:02:50
+
+"try to compile windows xp version of python3.10"
+
+0. no, you should drop any development for windows system, since it is not a free product, you can't make sure all your software user be able to use windows system for free since microsoft company is still alive.
+
+----------
+
+2024-06-10 03:36:54
+
+"create a real time voice clone app for linux, so that I could make sound that just like super star in songs, movies, tv shows. and it could let every sound you hear sounds like someone is talking to you. and you could even pre_record sound sequence to let the target people continus hear the continus talking when he or she hear something."
+
+0. "    # I think for sound, it is more like add voice data directly in old audio, but the human voice sound is very small, and only if old audio has data, no silence, we add voice data in. If you have brain interface API, add human voice to any sound you hear is easy.
+1. this tech depends on hardware, so I can't achive it by software
+
+----------
+
+2024-06-10 03:37:55
+
+"create a text compression function in auto_everything by using space splited token as index"
+
+0. by default, you could, but the speed is slow
+
+----------
+
+2024-06-10 03:38:37
+
+"let auto_everything terminal run_command function can work on python3.2"
+
+0. done, just use normal pipe operations
+
+----------
+
+2024-06-10 03:39:28
+
+"add a small feature to auto_everything code_helper, if the search keywords repeated for once, the result go next to get another answer"
+
+0. now you can press n to search for next search result
+
+----------
+

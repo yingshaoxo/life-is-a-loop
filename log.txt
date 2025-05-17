@@ -1255,3 +1255,189 @@ try to figure out how to use VPNhotspot and v2ray to redirect all traffic into a
 
 ----------
 
+2024-06-24 22:33:36
+
+"find out why my python3.10 x86 does not do the file http serve correctly, why it return 0 bytes?"
+
+0. it seems like it is because my http serve will not handle super big file that bigger than memory, I should implement a method to support http file download in a stream way, which supports continus download after cut off the network
+1. in http1.1 protocol, there has a standard called http_range_requests, I could implement that for both service and client
+2. actually, for python3.10 bytes read, it will return a iterator, so no memory overflow, but you can't do bytes operation later, you have to directly call socket.sendall
+
+----------
+
+2024-07-30 04:32:03
+
+"test if put vegetable into tree will let the vegetable continue to grow or not, if it works, eat that vegetable"
+
+0. it will work if that tree has a lot of water and the root of that vegetable has water; without water, they are die
+
+----------
+
+2024-07-30 04:33:31
+
+"make sure auto_everything disk compress function works for a single file"
+
+0. I add a link to call tar to do the compress for a file
+
+----------
+
+2024-07-30 04:34:54
+
+"split c99 statndard from gcc, let gcc only handle c99 code, so gcc can be smaller than 5MB"
+
+0. because I think c++ takes too much space in gcc
+1. tinycc or tcc did some work, but it only works without gcc in xp system
+
+----------
+
+2024-07-30 04:35:46
+
+"learn how to create a real hash table for dict data type"
+
+0. just convert the data id into string, then put them into a,b,c,d,e,f,g... sub_folders
+
+----------
+
+2024-07-30 04:36:59
+
+"learn how to add more points between two point to draw a direct line or arc line by using bezier_curve or line_equation"
+
+0. I know how to draw a direct line. You have to know the line slop first, then for each x input, you can get y output by using a line function
+1. if you can draw direct line, if you have a lot of stright lines, a arc line can be made from multiple stright lines
+
+----------
+
+2024-07-30 04:39:09
+
+"synchronize yingshaoxo data as a folder: big core and small core. small core folder only has yingshaoxo data. and small core has levels, from level1 to levelN, level1 has most valuable data"
+
+0. so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data
+1. I have to find out which data are useful, which are not. I should delete those low efficiency data. I do this verifying based on time
+
+----------
+
+2024-07-30 04:40:01
+
+"make my own version of chinese_chess, for example, the horse can eat enemy around it, the cannon can eat enemy around it"
+
+0. no, instead of change node rules, I think we'd better add some super power to enemy, let them be transparent each two round, let them could run twice while you run once.
+1. I already made a terminal based pure text chinese chess framework, I just have to add more rules for each type of chess point, then it would be done
+2. no hurry on this, i will do it when I have nothing to do
+
+----------
+
+2024-08-14 18:44:46
+
+"remove mongodb from it has alternative, use ferretdb instead. remove encrpt in data, especially passwords, otherwise it is hard to modify later, I can't even modify my own admin password later"
+
+
+
+----------
+
+2024-08-14 18:45:39
+
+"let yingshaoxo code helper only scan for the first 2 level code"
+
+0. now I use time, if process time is beyound 1 second, we stop scan
+
+----------
+
+2024-08-14 18:46:14
+
+"auto_everything gitignore not work without git, it will delete all py files, fix it"
+
+0. i have used the wrong function, it it working now
+
+----------
+
+2025-05-17 20:43:23
+
+"try a code grammer error auto fix AI: take right code, add random chars until error happen, get wrong code; input wrong code, predict right code"
+
+0. I don't think it is going to work, it will simply waste your disk storage
+
+----------
+
+2025-05-17 20:46:10
+
+"see if it is possible to only use 1 picture or 10 seconds video to copy one girl's face into a sex video in MacOS m1"
+
+0. I have selled the MacOs laptop, so we'll do it on Linux
+1. according to my knowledge, if a woman use a head toy to hide her face, when you look at her sex video, you'll feel satisfied about her body
+
+----------
+
+2025-05-17 20:47:59
+
+"think a way to use 5 points(x,y) to detect if the user want to draw a circle or line, the points location is not perfect. by the way, if the user want to draw a line, the user may try to shoot a person by using 5 bullet, you may help him to shoot the 6 point by using target speed"
+
+0. what are you doing? you spend your all day playing shotting video game??? If it is meant to be a wasting of your time, then it is just fine for not hitting the target. Enjoy the failure time!
+
+----------
+
+2025-05-17 20:54:44
+
+"make a AI model that could do the math OCR"
+
+0. you could try mlkit ocr flutter package first
+1. another goal: "Read this math formula for me". Convert math formula into human understandable sentence.
+2. as for the writing part, if you can use simple english and fake python code to represente the math logic and operations, then you do not need math expressions
+3. maybe you could use recursive regex text transformer to convert math latex to natural english sentence
+4. Well, when I do math calculation, I always handle things inside (), then handle multiplication and division first, then add and minus operators. Just follow the basic rules and using divide and conquer technology, then you should be able to make the picture to text job! Hopy you can make it in the future!
+
+----------
+
+2025-05-17 21:00:00
+
+"see how can we go out, I mean, do a migration to advanced countrys, go to those places that doesn't need VPN to visit Google, pornhub, youtube and so on."
+
+0. join Google team might be a good idea
+1. join a travel team would also be an idea
+2. grow up and gain the independence and freedom first is essential for this case, because that will allow us to go whatever place we wanted to go
+3. here is the plan: 1. go to shenzhen. 2. live alone. 3. find a coding job. 4. work for months. 5. don't waste my money. 6. go travel in advanced country (better with a girl). 7. run away and settle down. 8. never go back to china.
+4. we are in the 3. we need to find a job to gain more money to be able to buy a VISA:(Visitors International Stay Admission) or passport. then go travel to advanced county. (but if we can directly found a US based job, we could directly go to there
+5. Why they are advanced? No matter where you go and do will need money? The only good part is if you can find a free wifi, you can connect pornhub and youtube and google for free, but you may see a lots of advertisement.
+6. If all those people around you in china speaks English, then you can consider you are in a English country. So, let's talk English!
+
+----------
+
+2025-05-17 21:01:25
+
+"make a moonVR_player clone with react-xr(https://github.com/pmndrs/react-xr)"
+
+0. I think you can find a free android version of moonvr_player to play your pornstar videos. You don't have to make a copy, because you are doing repeated work. Time wasting.
+
+----------
+
+2025-05-17 21:05:03
+
+"make a simple Machine Learning demo that turns any sound, including envirnoment sound into meaningful sentence. Let it sounds like talking to you."
+
+0. What you are doing? Why don't you just download some music or live show or tv show or movies or porn talking videos to make you happy?
+
+----------
+
+2025-05-17 21:07:46
+
+"sell my knowledge by chat with others, 5 dollars per month"
+
+0. I think after the chatGPT similar human-like talking bot get released, I no longer has advantages for chating. Let's abandon this plan.
+
+----------
+
+2025-05-17 21:13:07
+
+"make a c header file that do global replacement for all stdlib function and variable name, we use #define fopen standard_lib_file_open"
+
+0. I think I will do it when I start to write c for working/money. I don't need to do that now
+
+----------
+
+2025-05-17 21:17:56
+
+"create a local network based clipboard text sharing website to help share text over different LAN devices"
+
+0. there already has one called netcut.cn, but it is for outside internet, may leak data, you can make one yourself. It is just similar to a message board online
+
+----------
+

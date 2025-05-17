@@ -1,5 +1,5 @@
 {
-    "index": 19,
+    "index": 36,
     "list": [
         "\"find a way to use 3.3 voltage to control 220v voltage in a quick way, so that I can use turn-on-and-off tech to turn 220v into 12v that could let a motor run smoothly\"",
         "\"make a new hero programming language backend engine, it should based on bash. we just need to improve the code structure and built_in function name. we want the try_and_cache functionality in bash, so that even if the previous line of code is wrong, the software will still run the next command\"",
@@ -28,24 +28,19 @@
         " \"consider write a book 'how to design a new torrent protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
         "\"consider write a book 'how to design a database protocol with pure python', where you introduce auto_everything and yppm and magic_magnet\"",
         "\"add magic_magnet_service_url function to yppm\"",
-        "\"make my own version of chinese_chess, for example, the horse can eat enemy around it, the cannon can eat enemy around it\"",
-        "\"synchronize yingshaoxo data as a folder: big core and small core. small core folder only has yingshaoxo data. and small core has levels, from level1 to levelN, level1 has most valuable data\"",
         "\"try to think about how to let a programming language ignore text under a class or function, just treat it like a class and function with name. we parse that class or function when needed. so that we could put python3 and python2 function at the same codebase. so that even if a function contains wrong code in grammer level, it won't bring error if you do not use it\"",
         "\"remove every backend project that uses node third party packages, they might has backdoor that could use your VPS as their VPS to act like a general web client for hackers\"",
         "\"make a c header file that do global replacement for all stdlib function and variable name, we use #define fopen standard_lib_file_open\"",
         "\"make a VPN that transfer socket data by using pure_text_post_method\"",
         "\"create a local network based clipboard text sharing website to help share text over different LAN devices\"",
-        "\"learn how to add more points between two point to draw a direct line or arc line by using bezier_curve or line_equation\"",
-        "\"learn how to create a real hash table for dict data type\"",
         "\"replace freedom apk base64 into my own image format for stability, or save bytes data directly",
-        "\"split c99 statndard from gcc, let gcc only handle c99 code, so gcc can be smaller than 5MB\"",
-        "\"add a small feature to auto_everything code_helper, if the search keywords repeated for once, the result go next to get another answer\"",
         "\"try to create a computing hardware company\"",
-        "\"make sure auto_everything disk compress function works for a single file\"",
         "\"a new business idea: public message board for everyone, seperated by /username after url, may replace email and phone. anyone can leave a message, no account need. only delete repeated message and obvious AD\"",
-        "\"test if put vegetable into tree will let the vegetable continue to grow or not, if it works, eat that vegetable\"",
-        "\"let auto_everything terminal run_command function can work on python3.2\"",
-        "\"create a text compression function in auto_everything by using space splited token as index\""
+        "\"write a dependency tree application, which helps people to see the dependencies of a thing\"",
+        "\"learn how to render a 3D object in terminal from basics, with pure python, no other library import, just auto_everything\"",
+        "\"use renpy to make a window wrapper so it can send input out and get picture from internet as a stream\"",
+        "\"fix hu60 post <pre> tag by adding a button to see the <br> version, because <pre> is not working in old broswer\"",
+        "\"make a local area firewall for android that could only allow certain domain or ip connection, in or out. it is an apk application\""
     ],
     "progress_dict": {
         "0": [],
@@ -113,7 +108,8 @@
         ],
         "19": [
             "it should only have bash, ssh, passwd, wget, chmod, mv, cp, rm, mkdir, pwd, ls, vim, and anything else will depend on third party binary files in /bin folder",
-            "If I want to let the system stable, I have to create my own computer"
+            "If I want to let the system stable, I have to create my own computer",
+            "I have created a linux standard in auto_everything"
         ],
         "2": [],
         "20": [],
@@ -126,46 +122,32 @@
         "25": [],
         "26": [],
         "27": [
-            "no, instead of change node rules, I think we'd better add some super power to enemy, let them be transparent each two round, let them could run twice while you run once.",
-            "I already made a terminal based pure text chinese chess framework, I just have to add more rules for each type of chess point, then it would be done"
-        ],
-        "28": [
-            "so far, I found my core small data only has 5GB, the big core folder has 30GB, the super big additional package has 500GB, so a 2T disk is enough for saving my data"
-        ],
-        "29": [
             "I'm considering write minimum_python by myself, which only requires part of stdlib functions, for example, string handling stuff, file open and write"
         ],
-        "3": [],
-        "30": [
+        "28": [
             "it is even wrose if you use npm in root VPS, because the npm will always use new version of a package or sub_package, how can you make sure your 3000 dependencies will not have a virus that could use your VPS root permissoin to do bad things?",
             "it is the same for other package manager, for example, python pip.",
             "or golang package, java package, rust package, flutter package. in chinese, people usally called those machine that has those software running 'rou ji'"
         ],
-        "31": [],
-        "32": [
+        "29": [],
+        "3": [],
+        "30": [
             "I think if you do not know how to use others socket proxy, then you'd better just create a broswer, and let the remote machine to help you get HTTP GET or POST response",
             "maybe when you create a http proxy client, you can make your request looks like a api that checks english_to_chinese dict or chinese_to_pinyin dict"
         ],
-        "33": [],
-        "34": [
-            "I know how to draw a direct line. You have to know the line slop first, then for each x input, you can get y output by using a line function"
-        ],
-        "35": [],
-        "36": [
+        "31": [],
+        "32": [
             "I'm going to check if raw_bytes is smaller than base64 or not",
             "rewrite flutter image compression algorithm, 1. read as 2d rgba pixel list, 2. downscale resolution to 720pixels, 3. reduce pixels type, 4. save as png or jpg or bmp"
         ],
-        "37": [
-            "because I think c++ takes too much space in gcc"
-        ],
+        "33": [],
+        "34": [],
+        "35": [],
+        "36": [],
+        "37": [],
         "38": [],
         "39": [],
         "4": [],
-        "40": [],
-        "41": [],
-        "42": [],
-        "43": [],
-        "44": [],
         "5": [],
         "6": [],
         "7": [],

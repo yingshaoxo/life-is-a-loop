@@ -1,6 +1,4 @@
-#!/usr/bin/env /usr/bin/python3
-#!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python3
-#!/usr/bin/env /home/yingshaoxo/anaconda3/bin/python
+#!/usr/bin/env python_yingshaoxo
 from signal import signal, SIGINT
 from sys import exit
 import os
